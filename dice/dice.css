@@ -1,0 +1,165 @@
+.center_field {
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.center_field * {
+    position: relative;
+    font-family: Trebuchet MS;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px 15px;
+}
+
+.center_field br {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.bottom_field {
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    width: inherit;
+    padding: 0px;
+}
+
+#label {
+    font-size: 32pt;
+    word-spacing: 0.5em;
+    padding: 5px 15px;
+    color: rgba(21, 26, 26, 0.6);
+    top: 45%;
+}
+
+#labelhelp {
+    font-size: 12pt;
+    padding: 5px 15px;
+    color: rgba(21, 26, 26, 0.5);
+    bottom: 50px;
+}
+
+#set {
+    text-align: center;
+    font-size: 26pt;
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+    top: 60%;
+}
+
+#sethelp {
+    font-size: 12pt;
+    color: rgba(21, 26, 26, 0.5);
+    background: none;
+    top: 25%;
+}
+
+#selector_div button {
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border: none;
+    width: 5em;
+    top: 62%;
+}
+
+.dice_place {
+    position: absolute;
+    border: solid black 1px;
+}
+
+#label_last {
+    font-size: 14pt;
+    word-spacing: 0.1em;
+    color: rgba(21, 26, 26, 0.5);
+    cursor: default;
+}
+
+#label_last_title {
+    font-size: 14pt;
+    word-spacing: 0.1em;
+    color: rgba(21, 26, 26, 0.5);
+    cursor: default;
+    padding-bottom: 0.1em;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border: none;
+    width: auto;
+    margin: 10px 0 0 0;
+    font-family: Roboto,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: .875rem;
+    font-weight: 500;
+    letter-spacing: .08929em;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    will-change: transform,opacity;
+    padding: 0 8px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 64px;
+    min-height: 28px;
+    border: none;
+    outline: none;
+    line-height: inherit;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    transition: box-shadow .28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);
+}
+
+button:hover {
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+}
+
+#results {
+    display: none;
+}
+
+#results {
+    position: relative;
+    font-family: Trebuchet MS;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f188; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #77777788; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #55555588; 
+}
