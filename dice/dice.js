@@ -327,13 +327,13 @@ var coloruLabel;
     this.known_types = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100'];
     this.dice_face_range = { 'd4': [1, 4], 'd6': [1, 6], 'd8': [1, 8], 'd10': [0, 9], 
         'd12': [1, 12], 'd20': [1, 20], 'd100': [0, 9] };
-    this.dice_mass = { 'd4': 300, 'd6': 300, 'd8': 340, 'd10': 350, 'd12': 350, 'd20': 400, 'd100': 350 };
-    this.dice_inertia = { 'd4': 5, 'd6': 13, 'd8': 10, 'd10': 9, 'd12': 8, 'd20': 6, 'd100': 9 };
+    this.dice_mass = { 'd4': 220, 'd6': 300, 'd8': 340, 'd10': 350, 'd12': 350, 'd20': 400, 'd100': 350 };
+    this.dice_inertia = { 'd4': 12, 'd6': 13, 'd8': 10, 'd10': 9, 'd12': 8, 'd20': 6, 'd100': 9 };
 
     this.scale = 50;
 
     this.create_d4 = function() {
-        if (!this.d4_geometry) this.d4_geometry = this.create_d4_geometry(this.scale * 1.2);
+        if (!this.d4_geometry) this.d4_geometry = this.create_d4_geometry(this.scale * 1.1);
         if (!this.d4_material) this.d4_material = new THREE.MeshFaceMaterial(
                 this.create_d4_materials(this.scale / 2, this.scale * 2));
         return new THREE.Mesh(this.d4_geometry, this.d4_material);
@@ -382,10 +382,14 @@ var coloruLabel;
     }
 
     this.parse_notation = function(notation) {
+        var droplowest = notation.includes("!");
+        if (droplowest) {
+            notation = notation.replace('!', '');
+        }
         var no = notation.split('@');
         var dr0 = /\s*(\d*)([a-z]+)(\d+)(\s*\+\s*(\d+)){0,1}\s*(\+|$)/gi;
         var dr1 = /(\b)*(\d+)(\b)*/gi;
-        var ret = { set: [], constant: 0, result: [], error: false }, res;
+        var ret = { set: [], constant: 0, result: [], error: false, dl: droplowest }, res;
         while (res = dr0.exec(no[0])) {
             var command = res[2];
             if (command != 'd') { ret.error = true; continue; }
@@ -482,14 +486,20 @@ var coloruLabel;
     this.dice_box.prototype.reinit = function(container, dimentions) {
         this.cw = container.clientWidth / 2;
         this.ch = container.clientHeight / 2;
+
         if (dimentions) {
             this.w = dimentions.w;
             this.h = dimentions.h;
-        }
-        else {
+        } else {
             this.w = this.cw;
             this.h = this.ch;
         }
+
+        if (this.cw < this.ch && dimentions) {
+            this.w = dimentions.h;
+            this.h = dimentions.w;
+        }
+        
         this.aspect = Math.min(this.cw / this.w, this.ch / this.h);
         that.scale = Math.sqrt(this.w * this.w + this.h * this.h) / 13;
 
@@ -512,8 +522,8 @@ var coloruLabel;
         this.light.shadowCameraFov = 50;
         this.light.shadowBias = 0.001;
         this.light.shadowDarkness = 1.1;
-        this.light.shadowMapWidth = 4096;
-        this.light.shadowMapHeight = 4096;
+        this.light.shadowMapWidth = 1024;
+        this.light.shadowMapHeight = 1024;
         this.scene.add(this.light);
 
         if (this.desk) this.scene.remove(this.desk);
@@ -581,7 +591,7 @@ var coloruLabel;
     this.dice_box.prototype.check_if_throw_finished = function() {
         var res = true;
         var e = 6;
-        if (this.iteration < 10 / that.frame_rate) {
+        if (this.iteration < 10000 / that.frame_rate) {
             for (var i = 0; i < this.dices.length; ++i) {
                 var dice = this.dices[i];
                 if (dice.dice_stopped === true) continue;

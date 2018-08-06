@@ -5,7 +5,6 @@ function dice_initialize(container) {
 
     var buttons = document.querySelectorAll('button').length;
     for (var i = 0; i < buttons; i++) {
-        debugger;
         document.querySelectorAll('button')[i].style.backgroundColor = coloru;
         document.querySelectorAll('button')[i].style.color = coloruLabel;
     }
@@ -68,21 +67,36 @@ function dice_initialize(container) {
     }
 
     function after_roll(notation, result) {
+        var droped_value = 0;
+
+        if (notation.dl) {
+            result.sort(function(a, b){return b-a});
+            droped_value = result[result.length-1];
+            result.pop();
+        }
+
         if (results.innerHTML.length > 0) {
             results.style.display = 'inline-block';
         }
         var res = result.join(' ');
-        if (notation.constant) res += ' +' + notation.constant;
-        if (result.length > 1) res += ' = ' + 
+        if (notation.constant) res += ' + ' + notation.constant;
+        if (result.length >= 1) res += ' = ' + 
                 (result.reduce(function(s, a) { return s + a; }) + notation.constant);
 
-        console.log(notation)
-        console.log(result)
-        label.innerHTML = res;
-        if (label_last.innerHTML.length > 0) {
-            label_last.innerHTML += '<br> ' + res;
+        if (notation.dl) {
+            label.innerHTML = '(' + droped_value +') ' + res;
+            if (label_last.innerHTML.length > 0) {
+                label_last.innerHTML += '<br> (' + droped_value +') ' + res;
+            } else {
+                label_last.innerHTML += '(' + droped_value +') ' + res;
+            }
         } else {
-            label_last.innerHTML += res;
+            label.innerHTML = res;
+            if (label_last.innerHTML.length > 0) {
+                label_last.innerHTML += '<br> ' + res;
+            } else {
+                label_last.innerHTML += res;
+            }
         }
         info_div.style.display = 'inline-block';
     }
