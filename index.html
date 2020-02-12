@@ -5,6 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="DnD, dangeon and dragons, roleplay, dice, roller, 3D, RPG, wargame" />
     <meta name="description" content="Online 3D dice roller" />
+    <meta id="addressChrome" name="theme-color">
+    <meta name="viewport" content="user-scalable=no" />
+
     <title>Dice Roller</title>
 
     <style type="text/css">
@@ -16,7 +19,7 @@
 
 </head>
 
-<body style="margin: 0">
+<body style="margin: 0" id="body">
     <div class="control_panel">
         <p id="loading_text">Carregando bibliotecas...</p>
         <div id="results">
@@ -48,16 +51,21 @@
             <br/>
             <button id="clear">Limpar</button>
             <button style="margin-left: 0.6em" id="throw">Jogar</button>
+
+            <input type="color" id="colorPicker" onchange="changeColor()">
         </div>
     </div>
     <div id="canvas"></div>
 
+    <script>
+        function changeColor() {
+            var picker = document.getElementById('colorPicker');
+            localStorage.setItem('diceColor', picker.value);
+        }
+    </script>
+
     <script src="libs/three.min.js"></script>
     <script src="libs/cannon.min.js"></script>
-    <!--script type="text/javascript" src="https://drive.google.com/uc?id=0ByGeV2TiysmOelhLSnlUQ3ZMc2M"></script>
-    <script type="text/javascript" src="https://drive.google.com/uc?id=0ByGeV2TiysmOczhfWW90OEV0dmM"></script-->
-
-
     <script type="text/javascript" src="teal.js"></script>
     <script type="text/javascript" src="dice/dice.js"></script>
     <script type="text/javascript" src="dice/main.js"></script>
