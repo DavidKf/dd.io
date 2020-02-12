@@ -17,6 +17,7 @@ function dice_initialize(container) {
     var label = $t.id('label');
     var set = $t.id('set');
     var selector_div = $t.id('selector_div');
+    var color_picker_wrapper = $t.id('color-picker-wrapper');
     var info_div = $t.id('info_div');
     on_set_change();
 
@@ -51,13 +52,17 @@ function dice_initialize(container) {
 
     function show_selector() {
         info_div.style.display = 'none';
+        results.style.display = 'none';
         selector_div.style.display = 'inline-block';
+        color_picker_wrapper.style.display = 'block';
         box.draw_selector();
     }
 
     function before_roll(vectors, notation, callback) {
         info_div.style.display = 'none';
         selector_div.style.display = 'none';
+        results.style.display = 'none';
+        color_picker_wrapper.style.display = 'none';
         // do here rpc call or whatever to get your own result of throw.
         // then callback with array of your result, example:
         // callback([2, 2, 2, 2]); // for 4d6 where all dice values are 2.
@@ -77,9 +82,6 @@ function dice_initialize(container) {
             result.pop();
         }
 
-        if (results.innerHTML.length > 0) {
-            results.style.display = 'inline-block';
-        }
         var res = result.join(' ');
         if (notation.constant) res += ' + ' + notation.constant;
         if (result.length >= 1) res += ' = ' +
@@ -100,6 +102,13 @@ function dice_initialize(container) {
                 label_last.innerHTML += res;
             }
         }
+
+        if (results.innerHTML.length > 354) {
+            results.style.display = 'inline-block';
+        } else {
+            results.style.display = 'none';
+        }
+
         info_div.style.display = 'inline-block';
     }
 
@@ -107,7 +116,7 @@ function dice_initialize(container) {
     box.bind_throw($t.id('throw'), notation_getter, before_roll, after_roll);
 
     $t.bind(container, ['mouseup'], function(ev) {
-        ev.stopPropagation();
+        // ev.stopPropagation();
         if (selector_div.style.display == 'none') {
             if (!box.rolling) show_selector();
             box.rolling = false;

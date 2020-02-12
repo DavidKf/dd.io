@@ -21,9 +21,6 @@
 
 <body style="margin: 0" id="body">
     <div class="control_panel">
-        <button id="color-picker-wrapper" onclick="openPicker()">Trocar Cor
-            <input type="color" id="color-picker" onchange="changeColor()">
-        </button>
         <p id="loading_text">Carregando bibliotecas...</p>
         <div id="results">
             <span id="label_last_title">Ultimos resultados:</span>
@@ -56,20 +53,28 @@
             <button style="margin-left: 0.6em" id="throw">Jogar</button>
         </div>
     </div>
-    <div id="canvas"></div>
+    <div id="canvas">
+        <button id="color-picker-wrapper" onclick="openPicker()" style="display: none">
+            Mudar Cor
+            <input type="color" id="color-picker" onchange="changeColor()">
+        </button>
+    </div>
 
     <script>
         var color_picker = document.getElementById("color-picker");
         var color_picker_wrapper = document.getElementById("color-picker-wrapper");
+        var set = document.getElementById("set");
         var savedColor = localStorage.getItem('diceColor');
 
         if (savedColor) {
             color_picker_wrapper.style.backgroundColor = savedColor;
             color_picker.value = savedColor;
+            set.style.borderColor = savedColor;
         }
 
         color_picker.onchange = function() {
             color_picker_wrapper.style.backgroundColor = color_picker.value;
+            set.style.borderColor = color_picker.value;
 
             var picker = document.getElementById('color-picker');
             localStorage.setItem('diceColor', picker.value);

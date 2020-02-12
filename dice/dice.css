@@ -19,9 +19,6 @@
 input[type="color"] {
     opacity: 0;
     display: none;
-    /* width: 32px;
-    height: 32px;
-    border: none; */
 }
 
 #color-picker-wrapper {
@@ -43,11 +40,11 @@ input[type="color"] {
 }
 
 #label {
-    font-size: 32pt;
-    word-spacing: 0.5em;
+    word-spacing: 0.1em;
     padding: 5px 15px;
     color: rgba(21, 26, 26, 0.6);
     top: 45%;
+    line-height: 1.267;
 }
 
 #labelhelp {
@@ -62,8 +59,12 @@ input[type="color"] {
     font-size: 26pt;
     border: none;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.3);
     top: 60%;
+    border-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
 }
 
 #sethelp {
@@ -186,6 +187,13 @@ button:hover {
     #set {
         font-size: 6em;
     }
+    #color-picker-wrapper {
+        position: absolute;
+        margin: 20px;
+        width: 30vw;
+        height: 8vw;
+        font-size: xx-large;
+    }
 }
 
 @media only screen and (max-device-width: 768px) {
@@ -214,6 +222,13 @@ button:hover {
     }
     #set {
         font-size: 6em;
+    }
+    #color-picker-wrapper {
+        position: absolute;
+        margin: 20px;
+        width: 30vw;
+        height: 8vw;
+        font-size: xx-large;
     }
 }
 
