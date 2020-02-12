@@ -19,9 +19,11 @@
 .bottom_field {
     position: absolute;
     text-align: center;
-    bottom: 5px;
+    bottom: 0px;
     width: inherit;
     padding: 0px;
+    height: 2px;
+    background-color: black;
 }
 
 #label {
@@ -92,7 +94,7 @@ button {
     border: none;
     width: auto;
     margin: 10px 0 0 0;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-size: .875rem;
@@ -100,8 +102,8 @@ button {
     letter-spacing: .08929em;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    will-change: transform,opacity;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    will-change: transform, opacity;
     padding: 0 8px;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -125,12 +127,12 @@ button {
     overflow: hidden;
     vertical-align: middle;
     border-radius: 2px;
-    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
-    transition: box-shadow .28s cubic-bezier(.4,0,.2,1),-webkit-box-shadow .28s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .28s cubic-bezier(.4, 0, .2, 1);
 }
 
 button:hover {
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
 }
 
 #results {
@@ -141,79 +143,88 @@ button:hover {
     padding: 5px 15px 15px 15px;
 }
 
-@media only screen and (max-device-width : 640px) {
-        #results {
-            font-size: 2em;
-        }
-        #limpar_historia {
-            width: 100%;
-            font-size: 1.6em !important;
-            min-height: 38px;
-        }
-        #labelhelp {
-            font-size: 3em;
-            bottom: 5vh;
-        }
-        #label {
-            font-size: 6em;
-        }
-        #sethelp {
-            font-size: 3em;
-        }
-        #clear, #throw {
-            font-size: 3.6em !important;
-            min-height: 38px;
-        }
-        #set {
-            font-size: 6em;
-        }
+@media only screen and (max-device-width: 640px) {
+    #results {
+        font-size: 2em;
     }
-    
-    @media only screen and (max-device-width: 768px) {
-        #results {
-            font-size: 2em;
-        }
-        #limpar_historia {
-            width: 100%;
-            font-size: 1.6em !important;
-            min-height: 38px;
-        }
-        #labelhelp {
-            font-size: 3em;
-            bottom: 5vh;
-        }
-        #label {
-            font-size: 6em;
-        }
+    #limpar_historia {
+        width: 100%;
+        font-size: 1.6em !important;
+        min-height: 38px;
+    }
+    #labelhelp {
+        font-size: 3em;
+        bottom: 5vh;
+    }
+    #label {
+        font-size: 6em;
+    }
+    #sethelp {
+        font-size: 3em;
+    }
+    #clear,
+    #throw {
+        font-size: 3.6em !important;
+        min-height: 38px;
+    }
+    #set {
+        font-size: 6em;
+    }
+}
 
-        #sethelp {
-            font-size: 3em;
-        }
-        #clear, #throw {
-            font-size: 3.6em !important;
-            min-height: 38px;
-        }
-        #set {
-            font-size: 6em;
-        }
+@media only screen and (max-device-width: 768px) {
+    #results {
+        font-size: 2em;
     }
+    #limpar_historia {
+        width: 100%;
+        font-size: 1.6em !important;
+        min-height: 38px;
+    }
+    #labelhelp {
+        font-size: 3em;
+        bottom: 5vh;
+    }
+    #label {
+        font-size: 6em;
+    }
+    #sethelp {
+        font-size: 3em;
+    }
+    #clear,
+    #throw {
+        font-size: 3.6em !important;
+        min-height: 38px;
+    }
+    #set {
+        font-size: 6em;
+    }
+}
+
 
 /* width */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
 
+
 /* Track */
+
 ::-webkit-scrollbar-track {
-    background: #f1f1f188; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #77777788; 
+    background: #f1f1f188;
 }
 
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #77777788;
+}
+
+
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #55555588; 
+    background: #55555588;
 }

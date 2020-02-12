@@ -1,1 +1,1058 @@
-var _0xb6d2=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x64\x69\x63\x65","\x61\x70\x70\x6C\x79","\x75\x73\x65\x5F\x74\x72\x75\x65\x5F\x72\x61\x6E\x64\x6F\x6D","\x66\x72\x61\x6D\x65\x5F\x72\x61\x74\x65","\x6C\x65\x6E\x67\x74\x68","\x72\x61\x6E\x64\x6F\x6D","\x65\x72\x72\x6F\x72","\x64\x61\x74\x61","\x72\x65\x73\x75\x6C\x74","\x72\x70\x63","\x70\x6F\x70","\x78","\x79","\x7A","\x73\x6C\x69\x63\x65","\x6D\x75\x6C\x74\x69\x70\x6C\x79\x53\x63\x61\x6C\x61\x72","\x69\x6E\x64\x65\x78","\x70\x75\x73\x68","\x76\x65\x72\x74\x69\x63\x65\x73","\x50\x49","\x66\x61\x63\x65\x73","\x63\x6F\x73","\x73\x69\x6E","\x66\x61\x63\x65\x56\x65\x72\x74\x65\x78\x55\x76\x73","\x63\x6F\x6D\x70\x75\x74\x65\x46\x61\x63\x65\x4E\x6F\x72\x6D\x61\x6C\x73","\x62\x6F\x75\x6E\x64\x69\x6E\x67\x53\x70\x68\x65\x72\x65","\x63\x6C\x6F\x6E\x65","\x61\x64\x64","\x64\x69\x76\x69\x64\x65\x53\x63\x61\x6C\x61\x72","\x61\x64\x64\x56\x65\x63\x74\x6F\x72\x73","\x73\x75\x62\x56\x65\x63\x74\x6F\x72\x73","\x69\x6E\x64\x65\x78\x4F\x66","\x75\x6E\x73\x68\x69\x66\x74","\x6E\x6F\x72\x6D\x61\x6C\x69\x7A\x65","\x66\x72\x6F\x6D\x41\x72\x72\x61\x79","\x56\x65\x63\x74\x6F\x72\x33","\x76\x65\x63\x74\x6F\x72\x73","\x63\x61\x6E\x6E\x6F\x6E\x5F\x73\x68\x61\x70\x65","\x73\x74\x61\x6E\x64\x61\x72\x74\x5F\x64\x32\x30\x5F\x64\x69\x63\x65\x5F\x66\x61\x63\x65\x5F\x6C\x61\x62\x65\x6C\x73","\x20","\x30","\x31","\x32","\x33","\x34","\x35","\x36","\x37","\x38","\x39","\x31\x30","\x31\x31","\x31\x32","\x31\x33","\x31\x34","\x31\x35","\x31\x36","\x31\x37","\x31\x38","\x31\x39","\x32\x30","\x73\x74\x61\x6E\x64\x61\x72\x74\x5F\x64\x31\x30\x30\x5F\x64\x69\x63\x65\x5F\x66\x61\x63\x65\x5F\x6C\x61\x62\x65\x6C\x73","\x30\x30","\x33\x30","\x34\x30","\x35\x30","\x36\x30","\x37\x30","\x38\x30","\x39\x30","\x6C\x6F\x67","\x66\x6C\x6F\x6F\x72","\x70\x6F\x77","\x63\x72\x65\x61\x74\x65\x5F\x64\x69\x63\x65\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C\x73","\x63\x61\x6E\x76\x61\x73","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x66\x6F\x6E\x74","\x70\x74\x20\x41\x72\x69\x61\x6C","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x66\x69\x6C\x6C\x52\x65\x63\x74","\x74\x65\x78\x74\x41\x6C\x69\x67\x6E","\x63\x65\x6E\x74\x65\x72","\x74\x65\x78\x74\x42\x61\x73\x65\x6C\x69\x6E\x65","\x6D\x69\x64\x64\x6C\x65","\x66\x69\x6C\x6C\x54\x65\x78\x74","\x20\x20\x2E","\x6E\x65\x65\x64\x73\x55\x70\x64\x61\x74\x65","\x6D\x61\x74\x65\x72\x69\x61\x6C\x5F\x6F\x70\x74\x69\x6F\x6E\x73","\x6C\x61\x62\x65\x6C\x5F\x63\x6F\x6C\x6F\x72","\x64\x69\x63\x65\x5F\x63\x6F\x6C\x6F\x72","\x63\x6F\x70\x79\x74\x6F","\x63\x72\x65\x61\x74\x65\x5F\x64\x34\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C\x73","\x74\x72\x61\x6E\x73\x6C\x61\x74\x65","\x72\x6F\x74\x61\x74\x65","\x63\x72\x65\x61\x74\x65\x5F\x64\x34\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x36\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x38\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x31\x30\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x31\x32\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x73\x71\x72\x74","\x63\x72\x65\x61\x74\x65\x5F\x64\x32\x30\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x46\x6C\x61\x74\x53\x68\x61\x64\x69\x6E\x67","","\x73\x70\x6C\x69\x74","\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x41\x42\x43\x44\x45\x46","\x23","\x30\x78","\x72\x6F\x75\x6E\x64","\x70\x61\x72\x73\x65\x49\x6E\x74","\x49\x6E\x76\x61\x6C\x69\x64\x20\x48\x45\x58\x20\x63\x6F\x6C\x6F\x72\x2E","\x23\x30\x30\x30\x30\x30\x30","\x23\x46\x46\x46\x46\x46\x46","\x61\x6D\x62\x69\x65\x6E\x74\x5F\x6C\x69\x67\x68\x74\x5F\x63\x6F\x6C\x6F\x72","\x73\x70\x6F\x74\x5F\x6C\x69\x67\x68\x74\x5F\x63\x6F\x6C\x6F\x72","\x73\x65\x6C\x65\x63\x74\x6F\x72\x5F\x62\x61\x63\x6B\x5F\x63\x6F\x6C\x6F\x72\x73","\x64\x65\x73\x6B\x5F\x63\x6F\x6C\x6F\x72","\x6B\x6E\x6F\x77\x6E\x5F\x74\x79\x70\x65\x73","\x64\x34","\x64\x36","\x64\x38","\x64\x31\x30","\x64\x31\x32","\x64\x32\x30","\x64\x31\x30\x30","\x64\x69\x63\x65\x5F\x66\x61\x63\x65\x5F\x72\x61\x6E\x67\x65","\x64\x69\x63\x65\x5F\x6D\x61\x73\x73","\x64\x69\x63\x65\x5F\x69\x6E\x65\x72\x74\x69\x61","\x73\x63\x61\x6C\x65","\x63\x72\x65\x61\x74\x65\x5F\x64\x34","\x64\x34\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x64\x34\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C","\x63\x72\x65\x61\x74\x65\x5F\x64\x36","\x64\x36\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x64\x69\x63\x65\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C","\x63\x72\x65\x61\x74\x65\x5F\x64\x38","\x64\x38\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x31\x30","\x64\x31\x30\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x31\x32","\x64\x31\x32\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x32\x30","\x64\x32\x30\x5F\x67\x65\x6F\x6D\x65\x74\x72\x79","\x63\x72\x65\x61\x74\x65\x5F\x64\x31\x30\x30","\x64\x31\x30\x30\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C","\x70\x61\x72\x73\x65\x5F\x6E\x6F\x74\x61\x74\x69\x6F\x6E","\x21","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x72\x65\x70\x6C\x61\x63\x65","\x40","\x64","\x73\x65\x74","\x63\x6F\x6E\x73\x74\x61\x6E\x74","\x65\x78\x65\x63","\x73\x74\x72\x69\x6E\x67\x69\x66\x79\x5F\x6E\x6F\x74\x61\x74\x69\x6F\x6E","\x20\x2B\x20","\x64\x69\x63\x65\x5F\x62\x6F\x78","\x75\x73\x65\x5F\x61\x64\x61\x70\x76\x69\x74\x65\x5F\x74\x69\x6D\x65\x73\x74\x65\x70","\x61\x6E\x69\x6D\x61\x74\x65\x5F\x73\x65\x6C\x65\x63\x74\x6F\x72","\x64\x69\x63\x65\x73","\x73\x63\x65\x6E\x65","\x77\x6F\x72\x6C\x64","\x72\x65\x6E\x64\x65\x72\x65\x72","\x57\x65\x62\x47\x4C\x52\x65\x6E\x64\x65\x72\x69\x6E\x67\x43\x6F\x6E\x74\x65\x78\x74","\x64\x6F\x6D\x45\x6C\x65\x6D\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x65\x6E\x61\x62\x6C\x65\x64","\x73\x68\x61\x64\x6F\x77\x4D\x61\x70","\x74\x79\x70\x65","\x50\x43\x46\x53\x68\x61\x64\x6F\x77\x4D\x61\x70","\x73\x65\x74\x43\x6C\x65\x61\x72\x43\x6F\x6C\x6F\x72","\x72\x65\x69\x6E\x69\x74","\x67\x72\x61\x76\x69\x74\x79","\x62\x72\x6F\x61\x64\x70\x68\x61\x73\x65","\x69\x74\x65\x72\x61\x74\x69\x6F\x6E\x73","\x73\x6F\x6C\x76\x65\x72","\x64\x69\x63\x65\x5F\x62\x6F\x64\x79\x5F\x6D\x61\x74\x65\x72\x69\x61\x6C","\x61\x64\x64\x43\x6F\x6E\x74\x61\x63\x74\x4D\x61\x74\x65\x72\x69\x61\x6C","\x73\x65\x74\x46\x72\x6F\x6D\x41\x78\x69\x73\x41\x6E\x67\x6C\x65","\x71\x75\x61\x74\x65\x72\x6E\x69\x6F\x6E","\x68","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x77","\x6C\x61\x73\x74\x5F\x74\x69\x6D\x65","\x72\x75\x6E\x6E\x69\x6E\x67","\x63\x61\x6D\x65\x72\x61","\x72\x65\x6E\x64\x65\x72","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x63\x77","\x63\x6C\x69\x65\x6E\x74\x57\x69\x64\x74\x68","\x63\x68","\x63\x6C\x69\x65\x6E\x74\x48\x65\x69\x67\x68\x74","\x61\x73\x70\x65\x63\x74","\x6D\x69\x6E","\x73\x65\x74\x53\x69\x7A\x65","\x77\x68","\x74\x61\x6E","\x72\x65\x6D\x6F\x76\x65","\x6D\x61\x78","\x6C\x69\x67\x68\x74","\x74\x61\x72\x67\x65\x74","\x64\x69\x73\x74\x61\x6E\x63\x65","\x63\x61\x73\x74\x53\x68\x61\x64\x6F\x77","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x4E\x65\x61\x72","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x46\x61\x72","\x73\x68\x61\x64\x6F\x77\x43\x61\x6D\x65\x72\x61\x46\x6F\x76","\x73\x68\x61\x64\x6F\x77\x42\x69\x61\x73","\x73\x68\x61\x64\x6F\x77\x44\x61\x72\x6B\x6E\x65\x73\x73","\x73\x68\x61\x64\x6F\x77\x4D\x61\x70\x57\x69\x64\x74\x68","\x73\x68\x61\x64\x6F\x77\x4D\x61\x70\x48\x65\x69\x67\x68\x74","\x64\x65\x73\x6B","\x72\x65\x63\x65\x69\x76\x65\x53\x68\x61\x64\x6F\x77","\x67\x65\x6E\x65\x72\x61\x74\x65\x5F\x76\x65\x63\x74\x6F\x72\x73","\x61\x62\x73","\x63\x72\x65\x61\x74\x65\x5F\x64\x69\x63\x65","\x63\x72\x65\x61\x74\x65\x5F","\x64\x69\x63\x65\x5F\x74\x79\x70\x65","\x62\x6F\x64\x79","\x67\x65\x6F\x6D\x65\x74\x72\x79","\x61","\x61\x6E\x67\x75\x6C\x61\x72\x56\x65\x6C\x6F\x63\x69\x74\x79","\x76\x65\x6C\x6F\x63\x69\x74\x79","\x6C\x69\x6E\x65\x61\x72\x44\x61\x6D\x70\x69\x6E\x67","\x61\x6E\x67\x75\x6C\x61\x72\x44\x61\x6D\x70\x69\x6E\x67","\x63\x68\x65\x63\x6B\x5F\x69\x66\x5F\x74\x68\x72\x6F\x77\x5F\x66\x69\x6E\x69\x73\x68\x65\x64","\x69\x74\x65\x72\x61\x74\x69\x6F\x6E","\x64\x69\x63\x65\x5F\x73\x74\x6F\x70\x70\x65\x64","\x6D\x61\x74\x65\x72\x69\x61\x6C\x49\x6E\x64\x65\x78","\x61\x6E\x67\x6C\x65\x54\x6F","\x61\x70\x70\x6C\x79\x51\x75\x61\x74\x65\x72\x6E\x69\x6F\x6E","\x6E\x6F\x72\x6D\x61\x6C","\x65\x6D\x75\x6C\x61\x74\x65\x5F\x74\x68\x72\x6F\x77","\x73\x74\x65\x70","\x5F\x5F\x61\x6E\x69\x6D\x61\x74\x65","\x67\x65\x74\x54\x69\x6D\x65","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x63\x6F\x70\x79","\x63\x61\x6C\x6C\x62\x61\x63\x6B","\x63\x61\x6C\x6C","\x63\x6C\x65\x61\x72","\x70\x61\x6E\x65","\x70\x72\x65\x70\x61\x72\x65\x5F\x64\x69\x63\x65\x73\x5F\x66\x6F\x72\x5F\x72\x6F\x6C\x6C","\x70\x6F\x73","\x61\x6E\x67\x6C\x65","\x61\x78\x69\x73","\x72\x6F\x6C\x6C","\x5F\x5F\x73\x65\x6C\x65\x63\x74\x6F\x72\x5F\x61\x6E\x69\x6D\x61\x74\x65","\x72\x6F\x74\x61\x74\x69\x6F\x6E","\x73\x65\x61\x72\x63\x68\x5F\x64\x69\x63\x65\x5F\x62\x79\x5F\x6D\x6F\x75\x73\x65","\x67\x65\x74\x5F\x6D\x6F\x75\x73\x65\x5F\x63\x6F\x6F\x72\x64\x73","\x69\x6E\x74\x65\x72\x73\x65\x63\x74\x4F\x62\x6A\x65\x63\x74\x73","\x73\x75\x62","\x75\x73\x65\x72\x44\x61\x74\x61","\x6F\x62\x6A\x65\x63\x74","\x64\x72\x61\x77\x5F\x73\x65\x6C\x65\x63\x74\x6F\x72","\x72\x6F\x6C\x6C\x69\x6E\x67","\x62\x69\x6E\x64\x5F\x6D\x6F\x75\x73\x65","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x74\x6F\x75\x63\x68\x73\x74\x61\x72\x74","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x6D\x6F\x75\x73\x65\x5F\x74\x69\x6D\x65","\x6D\x6F\x75\x73\x65\x5F\x73\x74\x61\x72\x74","\x62\x69\x6E\x64","\x6D\x6F\x75\x73\x65\x75\x70","\x74\x6F\x75\x63\x68\x65\x6E\x64","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x62\x69\x6E\x64\x5F\x74\x68\x72\x6F\x77","\x73\x74\x61\x72\x74\x5F\x74\x68\x72\x6F\x77"];_0xb6d2[0];var coloru;var coloruLabel;(function(_0x93b5x3){var _0x93b5x4=[];this[_0xb6d2[3]]= true;this[_0xb6d2[4]]= 1/ 60;function _0x93b5x5(_0x93b5x6){if(!_0x93b5x4[_0xb6d2[5]]&& $t[_0xb6d2[1]][_0xb6d2[3]]){try{$t[_0xb6d2[10]]({method:_0xb6d2[6],n:512},function(_0x93b5x7){if(!_0x93b5x7[_0xb6d2[7]]){_0x93b5x4= _0x93b5x7[_0xb6d2[9]][_0xb6d2[6]][_0xb6d2[8]]}else {$t[_0xb6d2[1]][_0xb6d2[3]]= false};_0x93b5x6()});return}catch(e){$t[_0xb6d2[1]][_0xb6d2[3]]= false}};_0x93b5x6()}function _0x93b5x8(){return _0x93b5x4[_0xb6d2[5]]?_0x93b5x4[_0xb6d2[11]]():Math[_0xb6d2[6]]()}function _0x93b5x9(_0x93b5xa,_0x93b5xb,_0x93b5xc){var _0x93b5xd= new Array(_0x93b5xa[_0xb6d2[5]]),_0x93b5xe= new Array(_0x93b5xb[_0xb6d2[5]]);for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xa[_0xb6d2[5]];++_0x93b5xf){var _0x93b5x10=_0x93b5xa[_0x93b5xf];_0x93b5xd[_0x93b5xf]=  new CANNON.Vec3(_0x93b5x10[_0xb6d2[12]]* _0x93b5xc,_0x93b5x10[_0xb6d2[13]]* _0x93b5xc,_0x93b5x10[_0xb6d2[14]]* _0x93b5xc)};for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xb[_0xb6d2[5]];++_0x93b5xf){_0x93b5xe[_0x93b5xf]= _0x93b5xb[_0x93b5xf][_0xb6d2[15]](0,_0x93b5xb[_0x93b5xf][_0xb6d2[5]]- 1)};return  new CANNON.ConvexPolyhedron(_0x93b5xd,_0x93b5xe)}function _0x93b5x11(_0x93b5xa,_0x93b5xb,_0x93b5xc,_0x93b5x12,_0x93b5x13){var _0x93b5x14= new THREE.Geometry();for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xa[_0xb6d2[5]];++_0x93b5xf){var _0x93b5x15=_0x93b5xa[_0x93b5xf][_0xb6d2[16]](_0x93b5xc);_0x93b5x15[_0xb6d2[17]]= _0x93b5x14[_0xb6d2[19]][_0xb6d2[18]](_0x93b5x15)- 1};for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xb[_0xb6d2[5]];++_0x93b5xf){var _0x93b5x16=_0x93b5xb[_0x93b5xf],_0x93b5x17=_0x93b5x16[_0xb6d2[5]]- 1;var _0x93b5x18=Math[_0xb6d2[20]]* 2/ _0x93b5x17;for(var _0x93b5x19=0;_0x93b5x19< _0x93b5x17- 2;++_0x93b5x19){_0x93b5x14[_0xb6d2[21]][_0xb6d2[18]]( new THREE.Face3(_0x93b5x16[0],_0x93b5x16[_0x93b5x19+ 1],_0x93b5x16[_0x93b5x19+ 2],[_0x93b5x14[_0xb6d2[19]][_0x93b5x16[0]],_0x93b5x14[_0xb6d2[19]][_0x93b5x16[_0x93b5x19+ 1]],_0x93b5x14[_0xb6d2[19]][_0x93b5x16[_0x93b5x19+ 2]]],0,_0x93b5x16[_0x93b5x17]+ 1));_0x93b5x14[_0xb6d2[24]][0][_0xb6d2[18]]([ new THREE.Vector2((Math[_0xb6d2[22]](_0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12),(Math[_0xb6d2[23]](_0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12)), new THREE.Vector2((Math[_0xb6d2[22]](_0x93b5x18* (_0x93b5x19+ 1)+ _0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12),(Math[_0xb6d2[23]](_0x93b5x18* (_0x93b5x19+ 1)+ _0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12)), new THREE.Vector2((Math[_0xb6d2[22]](_0x93b5x18* (_0x93b5x19+ 2)+ _0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12),(Math[_0xb6d2[23]](_0x93b5x18* (_0x93b5x19+ 2)+ _0x93b5x13)+ 1+ _0x93b5x12)/ 2/ (1+ _0x93b5x12))])}};_0x93b5x14[_0xb6d2[25]]();_0x93b5x14[_0xb6d2[26]]=  new THREE.Sphere( new THREE.Vector3(),_0x93b5xc);return _0x93b5x14}function _0x93b5x1a(_0x93b5x1b,_0x93b5xb,_0x93b5x1c){var _0x93b5x1d=[],_0x93b5x1e=[],_0x93b5x1f= new Array(_0x93b5x1b[_0xb6d2[5]]);for(var _0x93b5xf=0;_0x93b5xf< _0x93b5x1b[_0xb6d2[5]];++_0x93b5xf){_0x93b5x1f[_0x93b5xf]= []};for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xb[_0xb6d2[5]];++_0x93b5xf){var _0x93b5x16=_0x93b5xb[_0x93b5xf],_0x93b5x17=_0x93b5x16[_0xb6d2[5]]- 1;var _0x93b5x20= new THREE.Vector3();var _0x93b5x21= new Array(_0x93b5x17);for(var _0x93b5x19=0;_0x93b5x19< _0x93b5x17;++_0x93b5x19){var _0x93b5x22=_0x93b5x1b[_0x93b5x16[_0x93b5x19]][_0xb6d2[27]]();_0x93b5x20[_0xb6d2[28]](_0x93b5x22);_0x93b5x1f[_0x93b5x16[_0x93b5x19]][_0xb6d2[18]](_0x93b5x21[_0x93b5x19]= _0x93b5x1d[_0xb6d2[18]](_0x93b5x22)- 1)};_0x93b5x20[_0xb6d2[29]](_0x93b5x17);for(var _0x93b5x19=0;_0x93b5x19< _0x93b5x17;++_0x93b5x19){var _0x93b5x22=_0x93b5x1d[_0x93b5x21[_0x93b5x19]];_0x93b5x22[_0xb6d2[31]](_0x93b5x22,_0x93b5x20)[_0xb6d2[16]](_0x93b5x1c)[_0xb6d2[30]](_0x93b5x22,_0x93b5x20)};_0x93b5x21[_0xb6d2[18]](_0x93b5x16[_0x93b5x17]);_0x93b5x1e[_0xb6d2[18]](_0x93b5x21)};for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xb[_0xb6d2[5]]- 1;++_0x93b5xf){for(var _0x93b5x19=_0x93b5xf+ 1;_0x93b5x19< _0x93b5xb[_0xb6d2[5]];++_0x93b5x19){var _0x93b5x23=[],_0x93b5x24=-1;for(var _0x93b5x25=0;_0x93b5x25< _0x93b5xb[_0x93b5xf][_0xb6d2[5]]- 1;++_0x93b5x25){var _0x93b5x26=_0x93b5xb[_0x93b5x19][_0xb6d2[32]](_0x93b5xb[_0x93b5xf][_0x93b5x25]);if(_0x93b5x26>= 0&& _0x93b5x26< _0x93b5xb[_0x93b5x19][_0xb6d2[5]]- 1){if(_0x93b5x24>= 0&& _0x93b5x25!= _0x93b5x24+ 1){_0x93b5x23[_0xb6d2[33]]([_0x93b5xf,_0x93b5x25],[_0x93b5x19,_0x93b5x26])}else {_0x93b5x23[_0xb6d2[18]]([_0x93b5xf,_0x93b5x25],[_0x93b5x19,_0x93b5x26])};_0x93b5x24= _0x93b5x25}};if(_0x93b5x23[_0xb6d2[5]]!= 4){continue};_0x93b5x1e[_0xb6d2[18]]([_0x93b5x1e[_0x93b5x23[0][0]][_0x93b5x23[0][1]],_0x93b5x1e[_0x93b5x23[1][0]][_0x93b5x23[1][1]],_0x93b5x1e[_0x93b5x23[3][0]][_0x93b5x23[3][1]],_0x93b5x1e[_0x93b5x23[2][0]][_0x93b5x23[2][1]],-1])}};for(var _0x93b5xf=0;_0x93b5xf< _0x93b5x1f[_0xb6d2[5]];++_0x93b5xf){var _0x93b5xe=_0x93b5x1f[_0x93b5xf],_0x93b5x21=[_0x93b5xe[0]],_0x93b5x27=_0x93b5xe[_0xb6d2[5]]- 1;while(_0x93b5x27){for(var _0x93b5x25=_0x93b5xb[_0xb6d2[5]];_0x93b5x25< _0x93b5x1e[_0xb6d2[5]];++_0x93b5x25){var _0x93b5x28=_0x93b5x1e[_0x93b5x25][_0xb6d2[32]](_0x93b5x21[_0x93b5x21[_0xb6d2[5]]- 1]);if(_0x93b5x28>= 0&& _0x93b5x28< 4){if(--_0x93b5x28==  -1){_0x93b5x28= 3};var _0x93b5x29=_0x93b5x1e[_0x93b5x25][_0x93b5x28];if(_0x93b5xe[_0xb6d2[32]](_0x93b5x29)>= 0){_0x93b5x21[_0xb6d2[18]](_0x93b5x29);break}}};--_0x93b5x27};_0x93b5x21[_0xb6d2[18]](-1);_0x93b5x1e[_0xb6d2[18]](_0x93b5x21)};return {vectors:_0x93b5x1d,faces:_0x93b5x1e}}function _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,_0x93b5x12,_0x93b5x13,_0x93b5x1c){var _0x93b5x1b= new Array(_0x93b5xa[_0xb6d2[5]]);for(var _0x93b5xf=0;_0x93b5xf< _0x93b5xa[_0xb6d2[5]];++_0x93b5xf){_0x93b5x1b[_0x93b5xf]= ( new THREE[_0xb6d2[36]])[_0xb6d2[35]](_0x93b5xa[_0x93b5xf])[_0xb6d2[34]]()};var _0x93b5x2b=_0x93b5x1a(_0x93b5x1b,_0x93b5xb,_0x93b5x1c);var _0x93b5x14=_0x93b5x11(_0x93b5x2b[_0xb6d2[37]],_0x93b5x2b[_0xb6d2[21]],_0x93b5xc,_0x93b5x12,_0x93b5x13);_0x93b5x14[_0xb6d2[38]]= _0x93b5x9(_0x93b5x1b,_0x93b5xb,_0x93b5xc);return _0x93b5x14}this[_0xb6d2[39]]= [_0xb6d2[40],_0xb6d2[41],_0xb6d2[42],_0xb6d2[43],_0xb6d2[44],_0xb6d2[45],_0xb6d2[46],_0xb6d2[47],_0xb6d2[48],_0xb6d2[49],_0xb6d2[50],_0xb6d2[51],_0xb6d2[52],_0xb6d2[53],_0xb6d2[54],_0xb6d2[55],_0xb6d2[56],_0xb6d2[57],_0xb6d2[58],_0xb6d2[59],_0xb6d2[60],_0xb6d2[61]];this[_0xb6d2[62]]= [_0xb6d2[40],_0xb6d2[63],_0xb6d2[51],_0xb6d2[61],_0xb6d2[64],_0xb6d2[65],_0xb6d2[66],_0xb6d2[67],_0xb6d2[68],_0xb6d2[69],_0xb6d2[70]];function _0x93b5x2c(_0x93b5x2d){return Math[_0xb6d2[73]](2,Math[_0xb6d2[72]](Math[_0xb6d2[71]](_0x93b5x2d)/ Math[_0xb6d2[71]](2)))}this[_0xb6d2[74]]= function(_0x93b5x2e,_0x93b5x2f,_0x93b5x30){function _0x93b5x31(_0x93b5x32,_0x93b5x33,_0x93b5x34){if(_0x93b5x32== undefined){return null};var _0x93b5x35=document[_0xb6d2[76]](_0xb6d2[75]);var _0x93b5x36=_0x93b5x35[_0xb6d2[78]](_0xb6d2[77]);var _0x93b5x37=_0x93b5x2c(_0x93b5x2f+ _0x93b5x2f* 2* _0x93b5x30)* 2;_0x93b5x35[_0xb6d2[79]]= _0x93b5x35[_0xb6d2[80]]= _0x93b5x37;_0x93b5x36[_0xb6d2[81]]= _0x93b5x37/ (1+ 2* _0x93b5x30)+ _0xb6d2[82];_0x93b5x36[_0xb6d2[83]]= _0x93b5x34;_0x93b5x36[_0xb6d2[84]](0,0,_0x93b5x35[_0xb6d2[79]],_0x93b5x35[_0xb6d2[80]]);_0x93b5x36[_0xb6d2[85]]= _0xb6d2[86];_0x93b5x36[_0xb6d2[87]]= _0xb6d2[88];_0x93b5x36[_0xb6d2[83]]= _0x93b5x33;_0x93b5x36[_0xb6d2[89]](_0x93b5x32,_0x93b5x35[_0xb6d2[79]]/ 2,_0x93b5x35[_0xb6d2[80]]/ 2);if(_0x93b5x32== _0xb6d2[47]|| _0x93b5x32== _0xb6d2[50]){_0x93b5x36[_0xb6d2[89]](_0xb6d2[90],_0x93b5x35[_0xb6d2[79]]/ 2,_0x93b5x35[_0xb6d2[80]]/ 2)};var _0x93b5x38= new THREE.Texture(_0x93b5x35);_0x93b5x38[_0xb6d2[91]]= true;return _0x93b5x38}var _0x93b5x39=[];for(var _0x93b5xf=0;_0x93b5xf< _0x93b5x2e[_0xb6d2[5]];++_0x93b5xf){_0x93b5x39[_0xb6d2[18]]( new THREE.MeshPhongMaterial($t[_0xb6d2[95]](this[_0xb6d2[92]],{map:_0x93b5x31(_0x93b5x2e[_0x93b5xf],this[_0xb6d2[93]],this[_0xb6d2[94]])})))};return _0x93b5x39};this[_0xb6d2[96]]= function(_0x93b5x2f,_0x93b5x30){function _0x93b5x3a(_0x93b5x32,_0x93b5x33,_0x93b5x34){var _0x93b5x35=document[_0xb6d2[76]](_0xb6d2[75]);var _0x93b5x36=_0x93b5x35[_0xb6d2[78]](_0xb6d2[77]);var _0x93b5x37=_0x93b5x2c(_0x93b5x2f+ _0x93b5x30)* 2;_0x93b5x35[_0xb6d2[79]]= _0x93b5x35[_0xb6d2[80]]= _0x93b5x37;_0x93b5x36[_0xb6d2[81]]= (_0x93b5x37- _0x93b5x30)/ 1.5+ _0xb6d2[82];_0x93b5x36[_0xb6d2[83]]= _0x93b5x34;_0x93b5x36[_0xb6d2[84]](0,0,_0x93b5x35[_0xb6d2[79]],_0x93b5x35[_0xb6d2[80]]);_0x93b5x36[_0xb6d2[85]]= _0xb6d2[86];_0x93b5x36[_0xb6d2[87]]= _0xb6d2[88];_0x93b5x36[_0xb6d2[83]]= _0x93b5x33;for(var _0x93b5xf in _0x93b5x32){_0x93b5x36[_0xb6d2[89]](_0x93b5x32[_0x93b5xf],_0x93b5x35[_0xb6d2[79]]/ 2,_0x93b5x35[_0xb6d2[80]]/ 2- _0x93b5x37* 0.3);_0x93b5x36[_0xb6d2[97]](_0x93b5x35[_0xb6d2[79]]/ 2,_0x93b5x35[_0xb6d2[80]]/ 2);_0x93b5x36[_0xb6d2[98]](Math[_0xb6d2[20]]* 2/ 3);_0x93b5x36[_0xb6d2[97]](-_0x93b5x35[_0xb6d2[79]]/ 2,-_0x93b5x35[_0xb6d2[80]]/ 2)};var _0x93b5x38= new THREE.Texture(_0x93b5x35);_0x93b5x38[_0xb6d2[91]]= true;return _0x93b5x38}var _0x93b5x39=[];var _0x93b5x3b=[[],[0,0,0],[2,4,3],[1,3,4],[2,1,4],[1,2,3]];for(var _0x93b5xf=0;_0x93b5xf< _0x93b5x3b[_0xb6d2[5]];++_0x93b5xf){_0x93b5x39[_0xb6d2[18]]( new THREE.MeshPhongMaterial($t[_0xb6d2[95]](this[_0xb6d2[92]],{map:_0x93b5x3a(_0x93b5x3b[_0x93b5xf],this[_0xb6d2[93]],this[_0xb6d2[94]])})))};return _0x93b5x39};this[_0xb6d2[99]]= function(_0x93b5xc){var _0x93b5xa=[[1,1,1],[-1,-1,1],[-1,1,-1],[1,-1,-1]];var _0x93b5xb=[[1,0,2,1],[0,1,3,2],[0,3,2,3],[1,2,3,4]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,-0.1,Math[_0xb6d2[20]]* 7/ 6,0.96)};this[_0xb6d2[100]]= function(_0x93b5xc){var _0x93b5xa=[[-1,-1,-1],[1,-1,-1],[1,1,-1],[-1,1,-1],[-1,-1,1],[1,-1,1],[1,1,1],[-1,1,1]];var _0x93b5xb=[[0,3,2,1,1],[1,2,6,5,2],[0,1,5,4,3],[3,7,6,2,4],[0,4,7,3,5],[4,5,6,7,6]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,0.1,Math[_0xb6d2[20]]/ 4,0.96)};this[_0xb6d2[101]]= function(_0x93b5xc){var _0x93b5xa=[[1,0,0],[-1,0,0],[0,1,0],[0,-1,0],[0,0,1],[0,0,-1]];var _0x93b5xb=[[0,2,4,1],[0,4,3,2],[0,3,5,3],[0,5,2,4],[1,3,4,5],[1,4,2,6],[1,2,5,7],[1,5,3,8]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,0,-Math[_0xb6d2[20]]/ 4 / 2,0.965)};this[_0xb6d2[102]]= function(_0x93b5xc){var _0x93b5x3c=Math[_0xb6d2[20]]* 2/ 10,_0x93b5x3d=Math[_0xb6d2[22]](_0x93b5x3c),_0x93b5x3e=0.105,_0x93b5x10=-1;var _0x93b5xa=[];for(var _0x93b5xf=0,_0x93b5x3f=0;_0x93b5xf< 10;++_0x93b5xf,_0x93b5x3f+= _0x93b5x3c){_0x93b5xa[_0xb6d2[18]]([Math[_0xb6d2[22]](_0x93b5x3f),Math[_0xb6d2[23]](_0x93b5x3f),_0x93b5x3e* (_0x93b5xf% 2?1:-1)])};_0x93b5xa[_0xb6d2[18]]([0,0,-1]);_0x93b5xa[_0xb6d2[18]]([0,0,1]);var _0x93b5xb=[[5,7,11,0],[4,2,10,1],[1,3,11,2],[0,8,10,3],[7,9,11,4],[8,6,10,5],[9,1,11,6],[2,0,10,7],[3,5,11,8],[6,4,10,9],[1,0,2,_0x93b5x10],[1,2,3,_0x93b5x10],[3,2,4,_0x93b5x10],[3,4,5,_0x93b5x10],[5,4,6,_0x93b5x10],[5,6,7,_0x93b5x10],[7,6,8,_0x93b5x10],[7,8,9,_0x93b5x10],[9,8,0,_0x93b5x10],[9,0,1,_0x93b5x10]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,0,Math[_0xb6d2[20]]* 6/ 5,0.945)};this[_0xb6d2[103]]= function(_0x93b5xc){var _0x93b5x40=(1+ Math[_0xb6d2[104]](5))/ 2,_0x93b5x41=1/ _0x93b5x40;var _0x93b5xa=[[0,_0x93b5x41,_0x93b5x40],[0,_0x93b5x41,-_0x93b5x40],[0,-_0x93b5x41,_0x93b5x40],[0,-_0x93b5x41,-_0x93b5x40],[_0x93b5x40,0,_0x93b5x41],[_0x93b5x40,0,-_0x93b5x41],[-_0x93b5x40,0,_0x93b5x41],[-_0x93b5x40,0,-_0x93b5x41],[_0x93b5x41,_0x93b5x40,0],[_0x93b5x41,-_0x93b5x40,0],[-_0x93b5x41,_0x93b5x40,0],[-_0x93b5x41,-_0x93b5x40,0],[1,1,1],[1,1,-1],[1,-1,1],[1,-1,-1],[-1,1,1],[-1,1,-1],[-1,-1,1],[-1,-1,-1]];var _0x93b5xb=[[2,14,4,12,0,1],[15,9,11,19,3,2],[16,10,17,7,6,3],[6,7,19,11,18,4],[6,18,2,0,16,5],[18,11,9,14,2,6],[1,17,10,8,13,7],[1,13,5,15,3,8],[13,8,12,4,5,9],[5,4,14,9,15,10],[0,12,8,10,16,11],[3,19,7,17,1,12]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,0.2,-Math[_0xb6d2[20]]/ 4 / 2,0.968)};this[_0xb6d2[105]]= function(_0x93b5xc){var _0x93b5x42=(1+ Math[_0xb6d2[104]](5))/ 2;var _0x93b5xa=[[-1,_0x93b5x42,0],[1,_0x93b5x42,0],[-1,-_0x93b5x42,0],[1,-_0x93b5x42,0],[0,-1,_0x93b5x42],[0,1,_0x93b5x42],[0,-1,-_0x93b5x42],[0,1,-_0x93b5x42],[_0x93b5x42,0,-1],[_0x93b5x42,0,1],[-_0x93b5x42,0,-1],[-_0x93b5x42,0,1]];var _0x93b5xb=[[0,11,5,1],[0,5,1,2],[0,1,7,3],[0,7,10,4],[0,10,11,5],[1,5,9,6],[5,11,4,7],[11,10,2,8],[10,7,6,9],[7,1,8,10],[3,9,4,11],[3,4,2,12],[3,2,6,13],[3,6,8,14],[3,8,9,15],[4,9,5,16],[2,4,11,17],[6,2,10,18],[8,6,7,19],[9,8,1,20]];return _0x93b5x2a(_0x93b5xa,_0x93b5xb,_0x93b5xc,-0.2,-Math[_0xb6d2[20]]/ 4 / 2,0.955)};this[_0xb6d2[92]]= {specular:0x172022,color:0xf0f0f0,shininess:40,shading:THREE[_0xb6d2[106]]};function _0x93b5x43(_0x93b5x44){var _0x93b5x45=_0xb6d2[109][_0xb6d2[108]](_0xb6d2[107]);var _0x93b5x33=_0xb6d2[107];if(_0x93b5x44=== 1){_0x93b5x33= _0xb6d2[110]}else {_0x93b5x33= _0xb6d2[111]};for(var _0x93b5xf=0;_0x93b5xf< 6;_0x93b5xf++){_0x93b5x33+= _0x93b5x45[Math[_0xb6d2[112]](Math[_0xb6d2[6]]()* 15)]};if(_0x93b5x44=== 1){return _0x93b5x33}else {return Number[_0xb6d2[113]](_0x93b5x33)}}function _0x93b5x46(_0x93b5x47,_0x93b5x48){if(_0x93b5x47[_0xb6d2[32]](_0xb6d2[110])=== 0){_0x93b5x47= _0x93b5x47[_0xb6d2[15]](1)};if(_0x93b5x47[_0xb6d2[5]]=== 3){_0x93b5x47= _0x93b5x47[0]+ _0x93b5x47[0]+ _0x93b5x47[1]+ _0x93b5x47[1]+ _0x93b5x47[2]+ _0x93b5x47[2]};if(_0x93b5x47[_0xb6d2[5]]!== 6){throw  new Error(_0xb6d2[114])};var _0x93b5x49=parseInt(_0x93b5x47[_0xb6d2[15]](0,2),16),_0x93b5x4a=parseInt(_0x93b5x47[_0xb6d2[15]](2,4),16),_0x93b5x3f=parseInt(_0x93b5x47[_0xb6d2[15]](4,6),16);if(_0x93b5x48){return (_0x93b5x49* 0.299+ _0x93b5x4a* 0.587+ _0x93b5x3f* 0.114)> 136?_0xb6d2[115]:_0xb6d2[116]};_0x93b5x49= (255- _0x93b5x49).toString(16);_0x93b5x4a= (255- _0x93b5x4a).toString(16);_0x93b5x3f= (255- _0x93b5x3f).toString(16);return _0xb6d2[110]+ _0x93b5x49+ _0x93b5x4a+ _0x93b5x3f}var _0x93b5x4b=_0x93b5x43(1);var _0x93b5x4c=_0x93b5x46(_0x93b5x4b,true);console[_0xb6d2[71]](_0x93b5x4b);coloru= _0x93b5x4b;coloruLabel= _0x93b5x4c;this[_0xb6d2[93]]= _0x93b5x4c;this[_0xb6d2[94]]= _0x93b5x4b;this[_0xb6d2[117]]= _0x93b5x4b;this[_0xb6d2[118]]= 0xefdfd5;this[_0xb6d2[119]]= {color:0x404040,shininess:0,emissive:0x858787};this[_0xb6d2[120]]= 0x3e2a28;this[_0xb6d2[121]]= [_0xb6d2[122],_0xb6d2[123],_0xb6d2[124],_0xb6d2[125],_0xb6d2[126],_0xb6d2[127],_0xb6d2[128]];this[_0xb6d2[129]]= {"\x64\x34":[1,4],"\x64\x36":[1,6],"\x64\x38":[1,8],"\x64\x31\x30":[0,9],"\x64\x31\x32":[1,12],"\x64\x32\x30":[1,20],"\x64\x31\x30\x30":[0,9]};this[_0xb6d2[130]]= {"\x64\x34":220,"\x64\x36":300,"\x64\x38":340,"\x64\x31\x30":350,"\x64\x31\x32":350,"\x64\x32\x30":400,"\x64\x31\x30\x30":350};this[_0xb6d2[131]]= {"\x64\x34":12,"\x64\x36":13,"\x64\x38":10,"\x64\x31\x30":9,"\x64\x31\x32":8,"\x64\x32\x30":6,"\x64\x31\x30\x30":9};this[_0xb6d2[132]]= 50;this[_0xb6d2[133]]= function(){if(!this[_0xb6d2[134]]){this[_0xb6d2[134]]= this[_0xb6d2[99]](this[_0xb6d2[132]]* 1.1)};if(!this[_0xb6d2[135]]){this[_0xb6d2[135]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[96]](this[_0xb6d2[132]]/ 2,this[_0xb6d2[132]]* 2))};return  new THREE.Mesh(this[_0xb6d2[134]],this[_0xb6d2[135]])};this[_0xb6d2[136]]= function(){if(!this[_0xb6d2[137]]){this[_0xb6d2[137]]= this[_0xb6d2[100]](this[_0xb6d2[132]]* 0.9)};if(!this[_0xb6d2[138]]){this[_0xb6d2[138]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[39]],this[_0xb6d2[132]]/ 2,1.0))};return  new THREE.Mesh(this[_0xb6d2[137]],this[_0xb6d2[138]])};this[_0xb6d2[139]]= function(){if(!this[_0xb6d2[140]]){this[_0xb6d2[140]]= this[_0xb6d2[101]](this[_0xb6d2[132]])};if(!this[_0xb6d2[138]]){this[_0xb6d2[138]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[39]],this[_0xb6d2[132]]/ 2,1.2))};return  new THREE.Mesh(this[_0xb6d2[140]],this[_0xb6d2[138]])};this[_0xb6d2[141]]= function(){if(!this[_0xb6d2[142]]){this[_0xb6d2[142]]= this[_0xb6d2[102]](this[_0xb6d2[132]]* 0.9)};if(!this[_0xb6d2[138]]){this[_0xb6d2[138]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[39]],this[_0xb6d2[132]]/ 2,1.0))};return  new THREE.Mesh(this[_0xb6d2[142]],this[_0xb6d2[138]])};this[_0xb6d2[143]]= function(){if(!this[_0xb6d2[144]]){this[_0xb6d2[144]]= this[_0xb6d2[103]](this[_0xb6d2[132]]* 0.9)};if(!this[_0xb6d2[138]]){this[_0xb6d2[138]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[39]],this[_0xb6d2[132]]/ 2,1.0))};return  new THREE.Mesh(this[_0xb6d2[144]],this[_0xb6d2[138]])};this[_0xb6d2[145]]= function(){if(!this[_0xb6d2[146]]){this[_0xb6d2[146]]= this[_0xb6d2[105]](this[_0xb6d2[132]])};if(!this[_0xb6d2[138]]){this[_0xb6d2[138]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[39]],this[_0xb6d2[132]]/ 2,1.0))};return  new THREE.Mesh(this[_0xb6d2[146]],this[_0xb6d2[138]])};this[_0xb6d2[147]]= function(){if(!this[_0xb6d2[142]]){this[_0xb6d2[142]]= this[_0xb6d2[102]](this[_0xb6d2[132]]* 0.9)};if(!this[_0xb6d2[148]]){this[_0xb6d2[148]]=  new THREE.MeshFaceMaterial(this[_0xb6d2[74]](this[_0xb6d2[62]],this[_0xb6d2[132]]/ 2,1.5))};return  new THREE.Mesh(this[_0xb6d2[142]],this[_0xb6d2[148]])};this[_0xb6d2[149]]= function(_0x93b5x4d){var _0x93b5x4e=_0x93b5x4d[_0xb6d2[151]](_0xb6d2[150]);if(_0x93b5x4e){_0x93b5x4d= _0x93b5x4d[_0xb6d2[152]](_0xb6d2[150],_0xb6d2[107])};var _0x93b5x4f=_0x93b5x4d[_0xb6d2[108]](_0xb6d2[153]);var _0x93b5x50=/\s*(\d*)([a-z]+)(\d+)(\s*\+\s*(\d+)){0,1}\s*(\+|$)/gi;var _0x93b5x51=/(\b)*(\d+)(\b)*/gi;var _0x93b5x52={set:[],constant:0,result:[],error:false,dl:_0x93b5x4e},_0x93b5x53;while(_0x93b5x53= _0x93b5x50[_0xb6d2[157]](_0x93b5x4f[0])){var _0x93b5x54=_0x93b5x53[2];if(_0x93b5x54!= _0xb6d2[154]){_0x93b5x52[_0xb6d2[7]]= true;continue};var _0x93b5x27=parseInt(_0x93b5x53[1]);if(_0x93b5x53[1]== _0xb6d2[107]){_0x93b5x27= 1};var _0x93b5x44=_0xb6d2[154]+ _0x93b5x53[3];if(this[_0xb6d2[121]][_0xb6d2[32]](_0x93b5x44)==  -1){_0x93b5x52[_0xb6d2[7]]= true;continue};while(_0x93b5x27--){_0x93b5x52[_0xb6d2[155]][_0xb6d2[18]](_0x93b5x44)};if(_0x93b5x53[5]){_0x93b5x52[_0xb6d2[156]]+= parseInt(_0x93b5x53[5])}};while(_0x93b5x53= _0x93b5x51[_0xb6d2[157]](_0x93b5x4f[1])){_0x93b5x52[_0xb6d2[9]][_0xb6d2[18]](parseInt(_0x93b5x53[2]))};return _0x93b5x52};this[_0xb6d2[158]]= function(_0x93b5x55){var _0x93b5x56={},_0x93b5x4d=_0xb6d2[107];for(var _0x93b5xf in _0x93b5x55[_0xb6d2[155]]){if(!_0x93b5x56[_0x93b5x55[_0xb6d2[155]][_0x93b5xf]]){_0x93b5x56[_0x93b5x55[_0xb6d2[155]][_0x93b5xf]]= 1}else {++_0x93b5x56[_0x93b5x55[_0xb6d2[155]][_0x93b5xf]]}};for(var _0x93b5xf in _0x93b5x56){if(_0x93b5x4d[_0xb6d2[5]]){_0x93b5x4d+= _0xb6d2[159]};_0x93b5x4d+= (_0x93b5x56[_0x93b5xf]> 1?_0x93b5x56[_0x93b5xf]:_0xb6d2[107])+ _0x93b5xf};if(_0x93b5x55[_0xb6d2[156]]){_0x93b5x4d+= _0xb6d2[159]+ _0x93b5x55[_0xb6d2[156]]};return _0x93b5x4d};var _0x93b5x57=this;this[_0xb6d2[160]]= function(_0x93b5x58,_0x93b5x59){this[_0xb6d2[161]]= true;this[_0xb6d2[162]]= true;this[_0xb6d2[163]]= [];this[_0xb6d2[164]]=  new THREE.Scene();this[_0xb6d2[165]]=  new CANNON.World();this[_0xb6d2[166]]= window[_0xb6d2[167]]? new THREE.WebGLRenderer({antialias:true}): new THREE.CanvasRenderer({antialias:true});_0x93b5x58[_0xb6d2[169]](this[_0xb6d2[166]][_0xb6d2[168]]);this[_0xb6d2[166]][_0xb6d2[171]][_0xb6d2[170]]= true;this[_0xb6d2[166]][_0xb6d2[171]][_0xb6d2[172]]= THREE[_0xb6d2[173]];this[_0xb6d2[166]][_0xb6d2[174]](_0x93b5x57[_0xb6d2[120]],1);this[_0xb6d2[175]](_0x93b5x58,_0x93b5x59);this[_0xb6d2[165]][_0xb6d2[176]][_0xb6d2[155]](0,0,-9.8* 800);this[_0xb6d2[165]][_0xb6d2[177]]=  new CANNON.NaiveBroadphase();this[_0xb6d2[165]][_0xb6d2[179]][_0xb6d2[178]]= 16;var _0x93b5x5a= new THREE.AmbientLight(_0x93b5x57[_0xb6d2[117]]);this[_0xb6d2[164]][_0xb6d2[28]](_0x93b5x5a);this[_0xb6d2[180]]=  new CANNON.Material();var _0x93b5x5b= new CANNON.Material();var _0x93b5x5c= new CANNON.Material();this[_0xb6d2[165]][_0xb6d2[181]]( new CANNON.ContactMaterial(_0x93b5x5b,this[_0xb6d2[180]],0.01,0.5));this[_0xb6d2[165]][_0xb6d2[181]]( new CANNON.ContactMaterial(_0x93b5x5c,this[_0xb6d2[180]],0,1.0));this[_0xb6d2[165]][_0xb6d2[181]]( new CANNON.ContactMaterial(this[_0xb6d2[180]],this[_0xb6d2[180]],0,0.5));this[_0xb6d2[165]][_0xb6d2[28]]( new CANNON.RigidBody(0, new CANNON.Plane(),_0x93b5x5b));var _0x93b5x5d;_0x93b5x5d=  new CANNON.RigidBody(0, new CANNON.Plane(),_0x93b5x5c);_0x93b5x5d[_0xb6d2[183]][_0xb6d2[182]]( new CANNON.Vec3(1,0,0),Math[_0xb6d2[20]]/ 2);_0x93b5x5d[_0xb6d2[185]][_0xb6d2[155]](0,this[_0xb6d2[184]]* 0.93,0);this[_0xb6d2[165]][_0xb6d2[28]](_0x93b5x5d);_0x93b5x5d=  new CANNON.RigidBody(0, new CANNON.Plane(),_0x93b5x5c);_0x93b5x5d[_0xb6d2[183]][_0xb6d2[182]]( new CANNON.Vec3(1,0,0),-Math[_0xb6d2[20]]/ 2);_0x93b5x5d[_0xb6d2[185]][_0xb6d2[155]](0,-this[_0xb6d2[184]]* 0.93,0);this[_0xb6d2[165]][_0xb6d2[28]](_0x93b5x5d);_0x93b5x5d=  new CANNON.RigidBody(0, new CANNON.Plane(),_0x93b5x5c);_0x93b5x5d[_0xb6d2[183]][_0xb6d2[182]]( new CANNON.Vec3(0,1,0),-Math[_0xb6d2[20]]/ 2);_0x93b5x5d[_0xb6d2[185]][_0xb6d2[155]](this[_0xb6d2[186]]* 0.93,0,0);this[_0xb6d2[165]][_0xb6d2[28]](_0x93b5x5d);_0x93b5x5d=  new CANNON.RigidBody(0, new CANNON.Plane(),_0x93b5x5c);_0x93b5x5d[_0xb6d2[183]][_0xb6d2[182]]( new CANNON.Vec3(0,1,0),Math[_0xb6d2[20]]/ 2);_0x93b5x5d[_0xb6d2[185]][_0xb6d2[155]](-this[_0xb6d2[186]]* 0.93,0,0);this[_0xb6d2[165]][_0xb6d2[28]](_0x93b5x5d);this[_0xb6d2[187]]= 0;this[_0xb6d2[188]]= false;this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]])};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[175]]= function(_0x93b5x58,_0x93b5x59){this[_0xb6d2[192]]= _0x93b5x58[_0xb6d2[193]]/ 2;this[_0xb6d2[194]]= _0x93b5x58[_0xb6d2[195]]/ 2;if(_0x93b5x59){this[_0xb6d2[186]]= _0x93b5x59[_0xb6d2[186]];this[_0xb6d2[184]]= _0x93b5x59[_0xb6d2[184]]}else {this[_0xb6d2[186]]= this[_0xb6d2[192]];this[_0xb6d2[184]]= this[_0xb6d2[194]]};if(this[_0xb6d2[192]]< this[_0xb6d2[194]]&& _0x93b5x59){this[_0xb6d2[186]]= _0x93b5x59[_0xb6d2[184]];this[_0xb6d2[184]]= _0x93b5x59[_0xb6d2[186]]};this[_0xb6d2[196]]= Math[_0xb6d2[197]](this[_0xb6d2[192]]/ this[_0xb6d2[186]],this[_0xb6d2[194]]/ this[_0xb6d2[184]]);_0x93b5x57[_0xb6d2[132]]= Math[_0xb6d2[104]](this[_0xb6d2[186]]* this[_0xb6d2[186]]+ this[_0xb6d2[184]]* this[_0xb6d2[184]])/ 13;this[_0xb6d2[166]][_0xb6d2[198]](this[_0xb6d2[192]]* 2,this[_0xb6d2[194]]* 2);this[_0xb6d2[199]]= this[_0xb6d2[194]]/ this[_0xb6d2[196]]/ Math[_0xb6d2[200]](10* Math[_0xb6d2[20]]/ 180);if(this[_0xb6d2[189]]){this[_0xb6d2[164]][_0xb6d2[201]](this[_0xb6d2[189]])};this[_0xb6d2[189]]=  new THREE.PerspectiveCamera(20,this[_0xb6d2[192]]/ this[_0xb6d2[194]],1,this[_0xb6d2[199]]* 1.3);this[_0xb6d2[189]][_0xb6d2[185]][_0xb6d2[14]]= this[_0xb6d2[199]];var _0x93b5x5e=Math[_0xb6d2[202]](this[_0xb6d2[186]],this[_0xb6d2[184]]);if(this[_0xb6d2[203]]){this[_0xb6d2[164]][_0xb6d2[201]](this[_0xb6d2[203]])};this[_0xb6d2[203]]=  new THREE.SpotLight(_0x93b5x57[_0xb6d2[118]],1.0);this[_0xb6d2[203]][_0xb6d2[185]][_0xb6d2[155]](-_0x93b5x5e/ 2,_0x93b5x5e/ 2,_0x93b5x5e* 2);this[_0xb6d2[203]][_0xb6d2[204]][_0xb6d2[185]][_0xb6d2[155]](0,0,0);this[_0xb6d2[203]][_0xb6d2[205]]= _0x93b5x5e* 5;this[_0xb6d2[203]][_0xb6d2[206]]= true;this[_0xb6d2[203]][_0xb6d2[207]]= _0x93b5x5e/ 10;this[_0xb6d2[203]][_0xb6d2[208]]= _0x93b5x5e* 5;this[_0xb6d2[203]][_0xb6d2[209]]= 50;this[_0xb6d2[203]][_0xb6d2[210]]= 0.001;this[_0xb6d2[203]][_0xb6d2[211]]= 1.1;this[_0xb6d2[203]][_0xb6d2[212]]= 1024;this[_0xb6d2[203]][_0xb6d2[213]]= 1024;this[_0xb6d2[164]][_0xb6d2[28]](this[_0xb6d2[203]]);if(this[_0xb6d2[214]]){this[_0xb6d2[164]][_0xb6d2[201]](this[_0xb6d2[214]])};this[_0xb6d2[214]]=  new THREE.Mesh( new THREE.PlaneGeometry(this[_0xb6d2[186]]* 3,this[_0xb6d2[184]]* 2,1,1), new THREE.MeshPhongMaterial({color:_0x93b5x57[_0xb6d2[120]]}));this[_0xb6d2[214]][_0xb6d2[215]]= true;this[_0xb6d2[164]][_0xb6d2[28]](this[_0xb6d2[214]]);this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]])};function _0x93b5x5f(_0x93b5x60){var _0x93b5x61=_0x93b5x8()* Math[_0xb6d2[20]]/ 5- Math[_0xb6d2[20]]/ 5/ 2;var _0x93b5x62={x:_0x93b5x60[_0xb6d2[12]]* Math[_0xb6d2[22]](_0x93b5x61)- _0x93b5x60[_0xb6d2[13]]* Math[_0xb6d2[23]](_0x93b5x61),y:_0x93b5x60[_0xb6d2[12]]* Math[_0xb6d2[23]](_0x93b5x61)+ _0x93b5x60[_0xb6d2[13]]* Math[_0xb6d2[22]](_0x93b5x61)};if(_0x93b5x62[_0xb6d2[12]]== 0){_0x93b5x62[_0xb6d2[12]]= 0.01};if(_0x93b5x62[_0xb6d2[13]]== 0){_0x93b5x62[_0xb6d2[13]]= 0.01};return _0x93b5x62}this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[216]]= function(_0x93b5x4d,_0x93b5x60,_0x93b5x63){var _0x93b5x1b=[];for(var _0x93b5xf in _0x93b5x4d[_0xb6d2[155]]){var _0x93b5x62=_0x93b5x5f(_0x93b5x60);var _0x93b5x64={x:this[_0xb6d2[186]]* (_0x93b5x62[_0xb6d2[12]]> 0?-1:1)* 0.9,y:this[_0xb6d2[184]]* (_0x93b5x62[_0xb6d2[13]]> 0?-1:1)* 0.9,z:_0x93b5x8()* 200+ 200};var _0x93b5x65=Math[_0xb6d2[217]](_0x93b5x62[_0xb6d2[12]]/ _0x93b5x62[_0xb6d2[13]]);if(_0x93b5x65> 1.0){_0x93b5x64[_0xb6d2[13]]/= _0x93b5x65}else {_0x93b5x64[_0xb6d2[12]]*= _0x93b5x65};var _0x93b5x66=_0x93b5x5f(_0x93b5x60);var _0x93b5x67={x:_0x93b5x66[_0xb6d2[12]]* _0x93b5x63,y:_0x93b5x66[_0xb6d2[13]]* _0x93b5x63,z:-10};var _0x93b5x68=_0x93b5x57[_0xb6d2[131]][_0x93b5x4d[_0xb6d2[155]][_0x93b5xf]];var _0x93b5x69={x:-(_0x93b5x8()* _0x93b5x62[_0xb6d2[13]]* 5+ _0x93b5x68* _0x93b5x62[_0xb6d2[13]]),y:_0x93b5x8()* _0x93b5x62[_0xb6d2[12]]* 5+ _0x93b5x68* _0x93b5x62[_0xb6d2[12]],z:0};var _0x93b5x6a={x:_0x93b5x8(),y:_0x93b5x8(),z:_0x93b5x8(),a:_0x93b5x8()};_0x93b5x1b[_0xb6d2[18]]({set:_0x93b5x4d[_0xb6d2[155]][_0x93b5xf],pos:_0x93b5x64,velocity:_0x93b5x67,angle:_0x93b5x69,axis:_0x93b5x6a})};return _0x93b5x1b};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[218]]= function(_0x93b5x44,_0x93b5x64,_0x93b5x67,_0x93b5x69,_0x93b5x6a){var _0x93b5x3=_0x93b5x57[_0xb6d2[219]+ _0x93b5x44]();_0x93b5x3[_0xb6d2[206]]= true;_0x93b5x3[_0xb6d2[220]]= _0x93b5x44;_0x93b5x3[_0xb6d2[221]]=  new CANNON.RigidBody(_0x93b5x57[_0xb6d2[130]][_0x93b5x44],_0x93b5x3[_0xb6d2[222]][_0xb6d2[38]],this[_0xb6d2[180]]);_0x93b5x3[_0xb6d2[221]][_0xb6d2[185]][_0xb6d2[155]](_0x93b5x64[_0xb6d2[12]],_0x93b5x64[_0xb6d2[13]],_0x93b5x64[_0xb6d2[14]]);_0x93b5x3[_0xb6d2[221]][_0xb6d2[183]][_0xb6d2[182]]( new CANNON.Vec3(_0x93b5x6a[_0xb6d2[12]],_0x93b5x6a[_0xb6d2[13]],_0x93b5x6a[_0xb6d2[14]]),_0x93b5x6a[_0xb6d2[223]]* Math[_0xb6d2[20]]* 2);_0x93b5x3[_0xb6d2[221]][_0xb6d2[224]][_0xb6d2[155]](_0x93b5x69[_0xb6d2[12]],_0x93b5x69[_0xb6d2[13]],_0x93b5x69[_0xb6d2[14]]);_0x93b5x3[_0xb6d2[221]][_0xb6d2[225]][_0xb6d2[155]](_0x93b5x67[_0xb6d2[12]],_0x93b5x67[_0xb6d2[13]],_0x93b5x67[_0xb6d2[14]]);_0x93b5x3[_0xb6d2[221]][_0xb6d2[226]]= 0.1;_0x93b5x3[_0xb6d2[221]][_0xb6d2[227]]= 0.1;this[_0xb6d2[164]][_0xb6d2[28]](_0x93b5x3);this[_0xb6d2[163]][_0xb6d2[18]](_0x93b5x3);this[_0xb6d2[165]][_0xb6d2[28]](_0x93b5x3[_0xb6d2[221]])};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[228]]= function(){var _0x93b5x53=true;var _0x93b5x6b=6;if(this[_0xb6d2[229]]< 10000/ _0x93b5x57[_0xb6d2[4]]){for(var _0x93b5xf=0;_0x93b5xf< this[_0xb6d2[163]][_0xb6d2[5]];++_0x93b5xf){var _0x93b5x3=this[_0xb6d2[163]][_0x93b5xf];if(_0x93b5x3[_0xb6d2[230]]=== true){continue};var _0x93b5x3c=_0x93b5x3[_0xb6d2[221]][_0xb6d2[224]],_0x93b5x10=_0x93b5x3[_0xb6d2[221]][_0xb6d2[225]];if(Math[_0xb6d2[217]](_0x93b5x3c[_0xb6d2[12]])< _0x93b5x6b&& Math[_0xb6d2[217]](_0x93b5x3c[_0xb6d2[13]])< _0x93b5x6b&& Math[_0xb6d2[217]](_0x93b5x3c[_0xb6d2[14]])< _0x93b5x6b&& Math[_0xb6d2[217]](_0x93b5x10[_0xb6d2[12]])< _0x93b5x6b&& Math[_0xb6d2[217]](_0x93b5x10[_0xb6d2[13]])< _0x93b5x6b&& Math[_0xb6d2[217]](_0x93b5x10[_0xb6d2[14]])< _0x93b5x6b){if(_0x93b5x3[_0xb6d2[230]]){if(this[_0xb6d2[229]]- _0x93b5x3[_0xb6d2[230]]> 3){_0x93b5x3[_0xb6d2[230]]= true;continue}}else {_0x93b5x3[_0xb6d2[230]]= this[_0xb6d2[229]]};_0x93b5x53= false}else {_0x93b5x3[_0xb6d2[230]]= undefined;_0x93b5x53= false}}};return _0x93b5x53};function _0x93b5x6c(_0x93b5x3){var _0x93b5x60= new THREE.Vector3(0,0,_0x93b5x3[_0xb6d2[220]]== _0xb6d2[122]?-1:1);var _0x93b5x6d,_0x93b5x6e=Math[_0xb6d2[20]]* 2;for(var _0x93b5xf=0,_0x93b5x6f=_0x93b5x3[_0xb6d2[222]][_0xb6d2[21]][_0xb6d2[5]];_0x93b5xf< _0x93b5x6f;++_0x93b5xf){var _0x93b5x21=_0x93b5x3[_0xb6d2[222]][_0xb6d2[21]][_0x93b5xf];if(_0x93b5x21[_0xb6d2[231]]== 0){continue};var _0x93b5x69=_0x93b5x21[_0xb6d2[234]][_0xb6d2[27]]()[_0xb6d2[233]](_0x93b5x3[_0xb6d2[221]][_0xb6d2[183]])[_0xb6d2[232]](_0x93b5x60);if(_0x93b5x69< _0x93b5x6e){_0x93b5x6e= _0x93b5x69;_0x93b5x6d= _0x93b5x21}};var _0x93b5x70=_0x93b5x6d[_0xb6d2[231]]- 1;if(_0x93b5x3[_0xb6d2[220]]== _0xb6d2[128]){_0x93b5x70*= 10};return _0x93b5x70}function _0x93b5x71(_0x93b5x72){var _0x93b5x73=[];for(var _0x93b5xf=0,_0x93b5x6f=_0x93b5x72[_0xb6d2[5]];_0x93b5xf< _0x93b5x6f;++_0x93b5xf){_0x93b5x73[_0xb6d2[18]](_0x93b5x6c(_0x93b5x72[_0x93b5xf]))};return _0x93b5x73}this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[235]]= function(){while(!this[_0xb6d2[228]]()){++this[_0xb6d2[229]];this[_0xb6d2[165]][_0xb6d2[236]](_0x93b5x57[_0xb6d2[4]])};return _0x93b5x71(this[_0xb6d2[163]])};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[237]]= function(_0x93b5x74){var _0x93b5x75=( new Date())[_0xb6d2[238]]();var _0x93b5x76=(_0x93b5x75- this[_0xb6d2[187]])/ 1000;if(_0x93b5x76> 3){_0x93b5x76= _0x93b5x57[_0xb6d2[4]]};++this[_0xb6d2[229]];if(this[_0xb6d2[161]]){while(_0x93b5x76> _0x93b5x57[_0xb6d2[4]]* 1.1){this[_0xb6d2[165]][_0xb6d2[236]](_0x93b5x57[_0xb6d2[4]]);_0x93b5x76-= _0x93b5x57[_0xb6d2[4]]};this[_0xb6d2[165]][_0xb6d2[236]](_0x93b5x76)}else {this[_0xb6d2[165]][_0xb6d2[236]](_0x93b5x57[_0xb6d2[4]])};for(var _0x93b5xf in this[_0xb6d2[164]][_0xb6d2[239]]){var _0x93b5x77=this[_0xb6d2[164]][_0xb6d2[239]][_0x93b5xf];if(_0x93b5x77[_0xb6d2[221]]!= undefined){_0x93b5x77[_0xb6d2[185]][_0xb6d2[240]](_0x93b5x77[_0xb6d2[221]][_0xb6d2[185]]);_0x93b5x77[_0xb6d2[183]][_0xb6d2[240]](_0x93b5x77[_0xb6d2[221]][_0xb6d2[183]])}};this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]]);this[_0xb6d2[187]]= this[_0xb6d2[187]]?_0x93b5x75:( new Date())[_0xb6d2[238]]();if(this[_0xb6d2[188]]== _0x93b5x74&& this[_0xb6d2[228]]()){this[_0xb6d2[188]]= false;if(this[_0xb6d2[241]]){this[_0xb6d2[241]][_0xb6d2[242]](this,_0x93b5x71(this[_0xb6d2[163]]))}};if(this[_0xb6d2[188]]== _0x93b5x74){(function(_0x93b5x42,_0x93b5x78,_0x93b5x79){if(!_0x93b5x79&& _0x93b5x76< _0x93b5x57[_0xb6d2[4]]){setTimeout(function(){requestAnimationFrame(function(){_0x93b5x42.__animate(_0x93b5x78)})},(_0x93b5x57[_0xb6d2[4]]- _0x93b5x76)* 1000)}else {requestAnimationFrame(function(){_0x93b5x42.__animate(_0x93b5x78)})}})(this,_0x93b5x74,this[_0xb6d2[161]])}};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[243]]= function(){this[_0xb6d2[188]]= false;var _0x93b5x3;while(_0x93b5x3= this[_0xb6d2[163]][_0xb6d2[11]]()){this[_0xb6d2[164]][_0xb6d2[201]](_0x93b5x3);if(_0x93b5x3[_0xb6d2[221]]){this[_0xb6d2[165]][_0xb6d2[201]](_0x93b5x3[_0xb6d2[221]])}};if(this[_0xb6d2[244]]){this[_0xb6d2[164]][_0xb6d2[201]](this[_0xb6d2[244]])};this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]]);var _0x93b5x7a=this;setTimeout(function(){_0x93b5x7a[_0xb6d2[166]][_0xb6d2[190]](_0x93b5x7a[_0xb6d2[164]],_0x93b5x7a[_0xb6d2[189]])},100)};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[245]]= function(_0x93b5x1b){this[_0xb6d2[243]]();this[_0xb6d2[229]]= 0;for(var _0x93b5xf in _0x93b5x1b){this[_0xb6d2[218]](_0x93b5x1b[_0x93b5xf][_0xb6d2[155]],_0x93b5x1b[_0x93b5xf][_0xb6d2[246]],_0x93b5x1b[_0x93b5xf][_0xb6d2[225]],_0x93b5x1b[_0x93b5xf][_0xb6d2[247]],_0x93b5x1b[_0x93b5xf][_0xb6d2[248]])}};function _0x93b5x7b(_0x93b5x3,_0x93b5x7c,_0x93b5x53){var _0x93b5x49=_0x93b5x57[_0xb6d2[129]][_0x93b5x3[_0xb6d2[220]]];if(!(_0x93b5x7c>= _0x93b5x49[0]&& _0x93b5x7c<= _0x93b5x49[1])){return};var _0x93b5x7d=_0x93b5x7c- _0x93b5x53;var _0x93b5x14=_0x93b5x3[_0xb6d2[222]][_0xb6d2[27]]();for(var _0x93b5xf=0,_0x93b5x6f=_0x93b5x14[_0xb6d2[21]][_0xb6d2[5]];_0x93b5xf< _0x93b5x6f;++_0x93b5xf){var _0x93b5x70=_0x93b5x14[_0xb6d2[21]][_0x93b5xf][_0xb6d2[231]];if(_0x93b5x70== 0){continue};_0x93b5x70+= _0x93b5x7d- 1;while(_0x93b5x70> _0x93b5x49[1]){_0x93b5x70-= _0x93b5x49[1]};while(_0x93b5x70< _0x93b5x49[0]){_0x93b5x70+= _0x93b5x49[1]};_0x93b5x14[_0xb6d2[21]][_0x93b5xf][_0xb6d2[231]]= _0x93b5x70+ 1};_0x93b5x3[_0xb6d2[222]]= _0x93b5x14}this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[249]]= function(_0x93b5x1b,_0x93b5x73,_0x93b5x6){this[_0xb6d2[245]](_0x93b5x1b);if(_0x93b5x73!= undefined&& _0x93b5x73[_0xb6d2[5]]){this[_0xb6d2[161]]= false;var _0x93b5x53=this[_0xb6d2[235]]();this[_0xb6d2[245]](_0x93b5x1b);for(var _0x93b5xf in _0x93b5x53){_0x93b5x7b(this[_0xb6d2[163]][_0x93b5xf],_0x93b5x73[_0x93b5xf],_0x93b5x53[_0x93b5xf])}};this[_0xb6d2[241]]= _0x93b5x6;this[_0xb6d2[188]]= ( new Date())[_0xb6d2[238]]();this[_0xb6d2[187]]= 0;this.__animate(this[_0xb6d2[188]])};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[250]]= function(_0x93b5x74){var _0x93b5x75=( new Date())[_0xb6d2[238]]();var _0x93b5x76=(_0x93b5x75- this[_0xb6d2[187]])/ 1000;if(_0x93b5x76> 3){_0x93b5x76= _0x93b5x57[_0xb6d2[4]]};var _0x93b5x7e=0.3* _0x93b5x76* Math[_0xb6d2[20]]* Math[_0xb6d2[197]](24000+ _0x93b5x74- _0x93b5x75,6000)/ 6000;if(_0x93b5x7e< 0){this[_0xb6d2[188]]= false};for(var _0x93b5xf in this[_0xb6d2[163]]){this[_0xb6d2[163]][_0x93b5xf][_0xb6d2[251]][_0xb6d2[13]]+= _0x93b5x7e;this[_0xb6d2[163]][_0x93b5xf][_0xb6d2[251]][_0xb6d2[12]]+= _0x93b5x7e/ 4;this[_0xb6d2[163]][_0x93b5xf][_0xb6d2[251]][_0xb6d2[14]]+= _0x93b5x7e/ 10};this[_0xb6d2[187]]= _0x93b5x75;this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]]);if(this[_0xb6d2[188]]== _0x93b5x74){(function(_0x93b5x42,_0x93b5x78){requestAnimationFrame(function(){_0x93b5x42.__selector_animate(_0x93b5x78)})})(this,_0x93b5x74)}};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[252]]= function(_0x93b5x7f){var _0x93b5x25=$t[_0xb6d2[253]](_0x93b5x7f);var _0x93b5x80=( new THREE.Raycaster(this[_0xb6d2[189]][_0xb6d2[185]],( new THREE.Vector3((_0x93b5x25[_0xb6d2[12]]- this[_0xb6d2[192]])/ this[_0xb6d2[196]],(_0x93b5x25[_0xb6d2[13]]- this[_0xb6d2[194]])/ this[_0xb6d2[196]],this[_0xb6d2[186]]/ 9))[_0xb6d2[255]](this[_0xb6d2[189]][_0xb6d2[185]])[_0xb6d2[34]]()))[_0xb6d2[254]](this[_0xb6d2[163]]);if(_0x93b5x80[_0xb6d2[5]]){return _0x93b5x80[0][_0xb6d2[257]][_0xb6d2[256]]}};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[258]]= function(){this[_0xb6d2[243]]();var _0x93b5x81=this[_0xb6d2[186]]/ 4.5;this[_0xb6d2[244]]=  new THREE.Mesh( new THREE.PlaneGeometry(this[_0xb6d2[186]]* 6,this[_0xb6d2[184]]* 6,1,1), new THREE.MeshPhongMaterial(_0x93b5x57[_0xb6d2[119]]));this[_0xb6d2[244]][_0xb6d2[215]]= true;this[_0xb6d2[244]][_0xb6d2[185]][_0xb6d2[155]](0,0,1);this[_0xb6d2[164]][_0xb6d2[28]](this[_0xb6d2[244]]);var _0x93b5x82=false;for(var _0x93b5xf=0,_0x93b5x64=-3;_0x93b5xf< _0x93b5x57[_0xb6d2[121]][_0xb6d2[5]];++_0x93b5xf,++_0x93b5x64){var _0x93b5x3=$t[_0xb6d2[1]][_0xb6d2[219]+ _0x93b5x57[_0xb6d2[121]][_0x93b5xf]]();_0x93b5x3[_0xb6d2[185]][_0xb6d2[155]](_0x93b5x64* _0x93b5x81,0,_0x93b5x81* 0.5);_0x93b5x3[_0xb6d2[206]]= true;_0x93b5x3[_0xb6d2[256]]= _0x93b5x57[_0xb6d2[121]][_0x93b5xf];this[_0xb6d2[163]][_0xb6d2[18]](_0x93b5x3);this[_0xb6d2[164]][_0xb6d2[28]](_0x93b5x3)};this[_0xb6d2[188]]= ( new Date())[_0xb6d2[238]]();this[_0xb6d2[187]]= 0;if(this[_0xb6d2[162]]){this.__selector_animate(this[_0xb6d2[188]])}else {this[_0xb6d2[166]][_0xb6d2[190]](this[_0xb6d2[164]],this[_0xb6d2[189]])}};function _0x93b5x83(_0x93b5x7a,_0x93b5x60,_0x93b5x63,_0x93b5x84,_0x93b5x85,_0x93b5x86,_0x93b5x87){var _0x93b5x79=$t[_0xb6d2[1]][_0xb6d2[161]];function _0x93b5x88(_0x93b5x89){if(_0x93b5x87){_0x93b5x7a[_0xb6d2[243]]();_0x93b5x7a[_0xb6d2[249]](_0x93b5x1b,_0x93b5x89|| _0x93b5x4d[_0xb6d2[9]],function(_0x93b5x8a){if(_0x93b5x87){_0x93b5x87[_0xb6d2[242]](_0x93b5x7a,_0x93b5x4d,_0x93b5x8a)};_0x93b5x7a[_0xb6d2[259]]= false;$t[_0xb6d2[1]][_0xb6d2[161]]= _0x93b5x79})}}_0x93b5x60[_0xb6d2[12]]/= _0x93b5x84;_0x93b5x60[_0xb6d2[13]]/= _0x93b5x84;var _0x93b5x4d=_0x93b5x85[_0xb6d2[242]](_0x93b5x7a);if(_0x93b5x4d[_0xb6d2[155]][_0xb6d2[5]]== 0){return};var _0x93b5x1b=_0x93b5x7a[_0xb6d2[216]](_0x93b5x4d,_0x93b5x60,_0x93b5x63);_0x93b5x7a[_0xb6d2[259]]= true;if(_0x93b5x86){_0x93b5x86[_0xb6d2[242]](_0x93b5x7a,_0x93b5x1b,_0x93b5x4d,_0x93b5x88)}else {_0x93b5x88()}}this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[260]]= function(_0x93b5x58,_0x93b5x85,_0x93b5x86,_0x93b5x87){var _0x93b5x7a=this;$t[_0xb6d2[266]](_0x93b5x58,[_0xb6d2[261],_0xb6d2[262]],function(_0x93b5x7f){_0x93b5x7f[_0xb6d2[263]]();_0x93b5x7a[_0xb6d2[264]]= ( new Date())[_0xb6d2[238]]();_0x93b5x7a[_0xb6d2[265]]= $t[_0xb6d2[253]](_0x93b5x7f)});$t[_0xb6d2[266]](_0x93b5x58,[_0xb6d2[267],_0xb6d2[268]],function(_0x93b5x7f){if(_0x93b5x7a[_0xb6d2[259]]){return};if(_0x93b5x7a[_0xb6d2[265]]== undefined){return};_0x93b5x7f[_0xb6d2[269]]();var _0x93b5x25=$t[_0xb6d2[253]](_0x93b5x7f);var _0x93b5x60={x:_0x93b5x25[_0xb6d2[12]]- _0x93b5x7a[_0xb6d2[265]][_0xb6d2[12]],y:-(_0x93b5x25[_0xb6d2[13]]- _0x93b5x7a[_0xb6d2[265]][_0xb6d2[13]])};_0x93b5x7a[_0xb6d2[265]]= undefined;var _0x93b5x84=Math[_0xb6d2[104]](_0x93b5x60[_0xb6d2[12]]* _0x93b5x60[_0xb6d2[12]]+ _0x93b5x60[_0xb6d2[13]]* _0x93b5x60[_0xb6d2[13]]);if(_0x93b5x84< Math[_0xb6d2[104]](_0x93b5x7a[_0xb6d2[186]]* _0x93b5x7a[_0xb6d2[184]]* 0.01)){return};var _0x93b5x8b=( new Date())[_0xb6d2[238]]()- _0x93b5x7a[_0xb6d2[264]];if(_0x93b5x8b> 2000){_0x93b5x8b= 2000};var _0x93b5x63=Math[_0xb6d2[104]]((2500- _0x93b5x8b)/ 2500)* _0x93b5x84* 2;_0x93b5x5(function(){_0x93b5x83(_0x93b5x7a,_0x93b5x60,_0x93b5x63,_0x93b5x84,_0x93b5x85,_0x93b5x86,_0x93b5x87)})})};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[270]]= function(_0x93b5x8c,_0x93b5x85,_0x93b5x86,_0x93b5x87){var _0x93b5x7a=this;$t[_0xb6d2[266]](_0x93b5x8c,[_0xb6d2[267],_0xb6d2[268]],function(_0x93b5x7f){_0x93b5x7f[_0xb6d2[269]]();_0x93b5x7a[_0xb6d2[271]](_0x93b5x85,_0x93b5x86,_0x93b5x87)})};this[_0xb6d2[160]][_0xb6d2[191]][_0xb6d2[271]]= function(_0x93b5x85,_0x93b5x86,_0x93b5x87){var _0x93b5x7a=this;if(_0x93b5x7a[_0xb6d2[259]]){return};_0x93b5x5(function(){var _0x93b5x60={x:(_0x93b5x8()* 2- 1)* _0x93b5x7a[_0xb6d2[186]],y:-(_0x93b5x8()* 2- 1)* _0x93b5x7a[_0xb6d2[184]]};var _0x93b5x84=Math[_0xb6d2[104]](_0x93b5x60[_0xb6d2[12]]* _0x93b5x60[_0xb6d2[12]]+ _0x93b5x60[_0xb6d2[13]]* _0x93b5x60[_0xb6d2[13]]);var _0x93b5x63=(_0x93b5x8()+ 3)* _0x93b5x84;_0x93b5x83(_0x93b5x7a,_0x93b5x60,_0x93b5x63,_0x93b5x84,_0x93b5x85,_0x93b5x86,_0x93b5x87)})}})[_0xb6d2[2]](teal[_0xb6d2[1]]= teal[_0xb6d2[1]]|| {})
+"use strict";
+
+var coloru;
+var coloruLabel;
+(function(dice) {
+
+    var random_storage = [];
+    this.use_true_random = true;
+    this.frame_rate = 1 / 60;
+
+    function prepare_rnd(callback) {
+        if (!random_storage.length && $t.dice.use_true_random) {
+            try {
+                $t.rpc({ method: "random", n: 512 },
+                    function(random_responce) {
+                        if (!random_responce.error)
+                            random_storage = random_responce.result.random.data;
+                        else $t.dice.use_true_random = false;
+                        callback();
+                    });
+                return;
+            } catch (e) { $t.dice.use_true_random = false; }
+        }
+        callback();
+    }
+
+    function rnd() {
+        return random_storage.length ? random_storage.pop() : Math.random();
+    }
+
+    function create_shape(vertices, faces, radius) {
+        var cv = new Array(vertices.length),
+            cf = new Array(faces.length);
+        for (var i = 0; i < vertices.length; ++i) {
+            var v = vertices[i];
+            cv[i] = new CANNON.Vec3(v.x * radius, v.y * radius, v.z * radius);
+        }
+        for (var i = 0; i < faces.length; ++i) {
+            cf[i] = faces[i].slice(0, faces[i].length - 1);
+        }
+        return new CANNON.ConvexPolyhedron(cv, cf);
+    }
+
+    function make_geom(vertices, faces, radius, tab, af) {
+        var geom = new THREE.Geometry();
+        for (var i = 0; i < vertices.length; ++i) {
+            var vertex = vertices[i].multiplyScalar(radius);
+            vertex.index = geom.vertices.push(vertex) - 1;
+        }
+        for (var i = 0; i < faces.length; ++i) {
+            var ii = faces[i],
+                fl = ii.length - 1;
+            var aa = Math.PI * 2 / fl;
+            for (var j = 0; j < fl - 2; ++j) {
+                geom.faces.push(new THREE.Face3(ii[0], ii[j + 1], ii[j + 2], [geom.vertices[ii[0]],
+                    geom.vertices[ii[j + 1]], geom.vertices[ii[j + 2]]
+                ], 0, ii[fl] + 1));
+                geom.faceVertexUvs[0].push([
+                    new THREE.Vector2((Math.cos(af) + 1 + tab) / 2 / (1 + tab),
+                        (Math.sin(af) + 1 + tab) / 2 / (1 + tab)),
+                    new THREE.Vector2((Math.cos(aa * (j + 1) + af) + 1 + tab) / 2 / (1 + tab),
+                        (Math.sin(aa * (j + 1) + af) + 1 + tab) / 2 / (1 + tab)),
+                    new THREE.Vector2((Math.cos(aa * (j + 2) + af) + 1 + tab) / 2 / (1 + tab),
+                        (Math.sin(aa * (j + 2) + af) + 1 + tab) / 2 / (1 + tab))
+                ]);
+            }
+        }
+        geom.computeFaceNormals();
+        geom.boundingSphere = new THREE.Sphere(new THREE.Vector3(), radius);
+        return geom;
+    }
+
+    function chamfer_geom(vectors, faces, chamfer) {
+        var chamfer_vectors = [],
+            chamfer_faces = [],
+            corner_faces = new Array(vectors.length);
+        for (var i = 0; i < vectors.length; ++i) corner_faces[i] = [];
+        for (var i = 0; i < faces.length; ++i) {
+            var ii = faces[i],
+                fl = ii.length - 1;
+            var center_point = new THREE.Vector3();
+            var face = new Array(fl);
+            for (var j = 0; j < fl; ++j) {
+                var vv = vectors[ii[j]].clone();
+                center_point.add(vv);
+                corner_faces[ii[j]].push(face[j] = chamfer_vectors.push(vv) - 1);
+            }
+            center_point.divideScalar(fl);
+            for (var j = 0; j < fl; ++j) {
+                var vv = chamfer_vectors[face[j]];
+                vv.subVectors(vv, center_point).multiplyScalar(chamfer).addVectors(vv, center_point);
+            }
+            face.push(ii[fl]);
+            chamfer_faces.push(face);
+        }
+        for (var i = 0; i < faces.length - 1; ++i) {
+            for (var j = i + 1; j < faces.length; ++j) {
+                var pairs = [],
+                    lastm = -1;
+                for (var m = 0; m < faces[i].length - 1; ++m) {
+                    var n = faces[j].indexOf(faces[i][m]);
+                    if (n >= 0 && n < faces[j].length - 1) {
+                        if (lastm >= 0 && m != lastm + 1) pairs.unshift([i, m], [j, n]);
+                        else pairs.push([i, m], [j, n]);
+                        lastm = m;
+                    }
+                }
+                if (pairs.length != 4) continue;
+                chamfer_faces.push([chamfer_faces[pairs[0][0]][pairs[0][1]],
+                    chamfer_faces[pairs[1][0]][pairs[1][1]],
+                    chamfer_faces[pairs[3][0]][pairs[3][1]],
+                    chamfer_faces[pairs[2][0]][pairs[2][1]], -1
+                ]);
+            }
+        }
+        for (var i = 0; i < corner_faces.length; ++i) {
+            var cf = corner_faces[i],
+                face = [cf[0]],
+                count = cf.length - 1;
+            while (count) {
+                for (var m = faces.length; m < chamfer_faces.length; ++m) {
+                    var index = chamfer_faces[m].indexOf(face[face.length - 1]);
+                    if (index >= 0 && index < 4) {
+                        if (--index == -1) index = 3;
+                        var next_vertex = chamfer_faces[m][index];
+                        if (cf.indexOf(next_vertex) >= 0) {
+                            face.push(next_vertex);
+                            break;
+                        }
+                    }
+                }
+                --count;
+            }
+            face.push(-1);
+            chamfer_faces.push(face);
+        }
+        return { vectors: chamfer_vectors, faces: chamfer_faces };
+    }
+
+    function create_geom(vertices, faces, radius, tab, af, chamfer) {
+        var vectors = new Array(vertices.length);
+        for (var i = 0; i < vertices.length; ++i) {
+            vectors[i] = (new THREE.Vector3).fromArray(vertices[i]).normalize();
+        }
+        var cg = chamfer_geom(vectors, faces, chamfer);
+        var geom = make_geom(cg.vectors, cg.faces, radius, tab, af);
+        //var geom = make_geom(vectors, faces, radius, tab, af); // Without chamfer
+        geom.cannon_shape = create_shape(vectors, faces, radius);
+        return geom;
+    }
+
+    this.standart_d20_dice_face_labels = [' ', '0', '1', '2', '3', '4', '5', '6', '7', '8',
+        '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'
+    ];
+    this.standart_d100_dice_face_labels = [' ', '00', '10', '20', '30', '40', '50',
+        '60', '70', '80', '90'
+    ];
+
+    function calc_texture_size(approx) {
+        return Math.pow(2, Math.floor(Math.log(approx) / Math.log(2)));
+    }
+
+    this.create_dice_materials = function(face_labels, size, margin) {
+        function create_text_texture(text, color, back_color) {
+            if (text == undefined) return null;
+            var canvas = document.createElement("canvas");
+            var context = canvas.getContext("2d");
+            var ts = calc_texture_size(size + size * 2 * margin) * 16;
+            canvas.width = canvas.height = ts;
+            context.font = ts / (1 + 2 * margin) + "pt Arial";
+            context.fillStyle = back_color;
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.fillStyle = color;
+            context.fillText(text, canvas.width / 2, canvas.height / 2);
+            if (text == '6' || text == '9') {
+                context.fillText('  .', canvas.width / 2, canvas.height / 2);
+            }
+            var texture = new THREE.Texture(canvas);
+            texture.needsUpdate = true;
+            return texture;
+        }
+        var materials = [];
+        for (var i = 0; i < face_labels.length; ++i)
+            materials.push(new THREE.MeshPhongMaterial($t.copyto(this.material_options, { map: create_text_texture(face_labels[i], this.label_color, this.dice_color) })));
+        return materials;
+    }
+
+    this.create_d4_materials = function(size, margin) {
+        function create_d4_text(text, color, back_color) {
+            var canvas = document.createElement("canvas");
+            var context = canvas.getContext("2d");
+            var ts = calc_texture_size(size + margin) * 2;
+            canvas.width = canvas.height = ts;
+            context.font = (ts - margin) / 1.5 + "pt Arial";
+            context.antialias = true;
+            context.precision = 'highp';
+            context.fillStyle = back_color;
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.fillStyle = color;
+            for (var i in text) {
+                context.fillText(text[i], canvas.width / 2,
+                    canvas.height / 2 - ts * 0.3);
+                context.translate(canvas.width / 2, canvas.height / 2);
+                context.rotate(Math.PI * 2 / 3);
+                context.translate(-canvas.width / 2, -canvas.height / 2);
+            }
+            var texture = new THREE.Texture(canvas);
+            texture.needsUpdate = true;
+            return texture;
+        }
+        var materials = [];
+        var labels = [
+            [],
+            [0, 0, 0],
+            [2, 4, 3],
+            [1, 3, 4],
+            [2, 1, 4],
+            [1, 2, 3]
+        ];
+        for (var i = 0; i < labels.length; ++i)
+            materials.push(new THREE.MeshPhongMaterial($t.copyto(this.material_options, { map: create_d4_text(labels[i], this.label_color, this.dice_color) })));
+        return materials;
+    }
+
+    this.create_d4_geometry = function(radius) {
+        var vertices = [
+            [1, 1, 1],
+            [-1, -1, 1],
+            [-1, 1, -1],
+            [1, -1, -1]
+        ];
+        var faces = [
+            [1, 0, 2, 1],
+            [0, 1, 3, 2],
+            [0, 3, 2, 3],
+            [1, 2, 3, 4]
+        ];
+        return create_geom(vertices, faces, radius, -0.1, Math.PI * 7 / 6, 0.96);
+    }
+
+    this.create_d6_geometry = function(radius) {
+        var vertices = [
+            [-1, -1, -1],
+            [1, -1, -1],
+            [1, 1, -1],
+            [-1, 1, -1],
+            [-1, -1, 1],
+            [1, -1, 1],
+            [1, 1, 1],
+            [-1, 1, 1]
+        ];
+        var faces = [
+            [0, 3, 2, 1, 1],
+            [1, 2, 6, 5, 2],
+            [0, 1, 5, 4, 3],
+            [3, 7, 6, 2, 4],
+            [0, 4, 7, 3, 5],
+            [4, 5, 6, 7, 6]
+        ];
+        return create_geom(vertices, faces, radius, 0.1, Math.PI / 4, 0.96);
+    }
+
+    this.create_d8_geometry = function(radius) {
+        var vertices = [
+            [1, 0, 0],
+            [-1, 0, 0],
+            [0, 1, 0],
+            [0, -1, 0],
+            [0, 0, 1],
+            [0, 0, -1]
+        ];
+        var faces = [
+            [0, 2, 4, 1],
+            [0, 4, 3, 2],
+            [0, 3, 5, 3],
+            [0, 5, 2, 4],
+            [1, 3, 4, 5],
+            [1, 4, 2, 6],
+            [1, 2, 5, 7],
+            [1, 5, 3, 8]
+        ];
+        return create_geom(vertices, faces, radius, 0, -Math.PI / 4 / 2, 0.965);
+    }
+
+    this.create_d10_geometry = function(radius) {
+        var a = Math.PI * 2 / 10,
+            k = Math.cos(a),
+            h = 0.105,
+            v = -1;
+        var vertices = [];
+        for (var i = 0, b = 0; i < 10; ++i, b += a)
+            vertices.push([Math.cos(b), Math.sin(b), h * (i % 2 ? 1 : -1)]);
+        vertices.push([0, 0, -1]);
+        vertices.push([0, 0, 1]);
+        var faces = [
+            [5, 7, 11, 0],
+            [4, 2, 10, 1],
+            [1, 3, 11, 2],
+            [0, 8, 10, 3],
+            [7, 9, 11, 4],
+            [8, 6, 10, 5],
+            [9, 1, 11, 6],
+            [2, 0, 10, 7],
+            [3, 5, 11, 8],
+            [6, 4, 10, 9],
+            [1, 0, 2, v],
+            [1, 2, 3, v],
+            [3, 2, 4, v],
+            [3, 4, 5, v],
+            [5, 4, 6, v],
+            [5, 6, 7, v],
+            [7, 6, 8, v],
+            [7, 8, 9, v],
+            [9, 8, 0, v],
+            [9, 0, 1, v]
+        ];
+        return create_geom(vertices, faces, radius, 0, Math.PI * 6 / 5, 0.945);
+    }
+
+    this.create_d12_geometry = function(radius) {
+        var p = (1 + Math.sqrt(5)) / 2,
+            q = 1 / p;
+        var vertices = [
+            [0, q, p],
+            [0, q, -p],
+            [0, -q, p],
+            [0, -q, -p],
+            [p, 0, q],
+            [p, 0, -q],
+            [-p, 0, q],
+            [-p, 0, -q],
+            [q, p, 0],
+            [q, -p, 0],
+            [-q, p, 0],
+            [-q, -p, 0],
+            [1, 1, 1],
+            [1, 1, -1],
+            [1, -1, 1],
+            [1, -1, -1],
+            [-1, 1, 1],
+            [-1, 1, -1],
+            [-1, -1, 1],
+            [-1, -1, -1]
+        ];
+        var faces = [
+            [2, 14, 4, 12, 0, 1],
+            [15, 9, 11, 19, 3, 2],
+            [16, 10, 17, 7, 6, 3],
+            [6, 7, 19, 11, 18, 4],
+            [6, 18, 2, 0, 16, 5],
+            [18, 11, 9, 14, 2, 6],
+            [1, 17, 10, 8, 13, 7],
+            [1, 13, 5, 15, 3, 8],
+            [13, 8, 12, 4, 5, 9],
+            [5, 4, 14, 9, 15, 10],
+            [0, 12, 8, 10, 16, 11],
+            [3, 19, 7, 17, 1, 12]
+        ];
+        return create_geom(vertices, faces, radius, 0.2, -Math.PI / 4 / 2, 0.968);
+    }
+
+    this.create_d20_geometry = function(radius) {
+        var t = (1 + Math.sqrt(5)) / 2;
+        var vertices = [
+            [-1, t, 0],
+            [1, t, 0],
+            [-1, -t, 0],
+            [1, -t, 0],
+            [0, -1, t],
+            [0, 1, t],
+            [0, -1, -t],
+            [0, 1, -t],
+            [t, 0, -1],
+            [t, 0, 1],
+            [-t, 0, -1],
+            [-t, 0, 1]
+        ];
+        var faces = [
+            [0, 11, 5, 1],
+            [0, 5, 1, 2],
+            [0, 1, 7, 3],
+            [0, 7, 10, 4],
+            [0, 10, 11, 5],
+            [1, 5, 9, 6],
+            [5, 11, 4, 7],
+            [11, 10, 2, 8],
+            [10, 7, 6, 9],
+            [7, 1, 8, 10],
+            [3, 9, 4, 11],
+            [3, 4, 2, 12],
+            [3, 2, 6, 13],
+            [3, 6, 8, 14],
+            [3, 8, 9, 15],
+            [4, 9, 5, 16],
+            [2, 4, 11, 17],
+            [6, 2, 10, 18],
+            [8, 6, 7, 19],
+            [9, 8, 1, 20]
+        ];
+        return create_geom(vertices, faces, radius, -0.2, -Math.PI / 4 / 2, 0.955);
+    }
+
+    this.material_options = {
+        specular: 0x172022,
+        color: 0xf0f0f0,
+        shininess: 40,
+        shading: THREE.FlatShading,
+    };
+
+    function getRandomColor(type) {
+        var letters = '0123456789ABCDEF'.split('');
+        var color = '';
+        if (type === 1) { color = '#'; } else { color = '0x'; }
+
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.round(Math.random() * 15)];
+        }
+
+        if (type === 1) { return color; } else { return Number.parseInt(color); }
+    }
+
+    function invertColor(hex, bw) {
+        if (hex.indexOf('#') === 0) {
+            hex = hex.slice(1);
+        }
+        // convert 3-digit hex to 6-digits.
+        if (hex.length === 3) {
+            hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
+        }
+        if (hex.length !== 6) {
+            throw new Error('Invalid HEX color.');
+        }
+        var r = parseInt(hex.slice(0, 2), 16),
+            g = parseInt(hex.slice(2, 4), 16),
+            b = parseInt(hex.slice(4, 6), 16);
+        if (bw) {
+            return (r * 0.299 + g * 0.587 + b * 0.114) > 136 ?
+                '#000000' :
+                '#FFFFFF';
+        }
+        // invert color components
+        r = (255 - r).toString(16);
+        g = (255 - g).toString(16);
+        b = (255 - b).toString(16);
+        // pad each with zeros and return
+        return "#" + r + g + b;
+    }
+    var randColor = getRandomColor(1);
+    var labelColor = invertColor(randColor, true);
+
+    var userColor = localStorage.getItem('diceColor');
+    var userLabelColor = null;
+
+    if (userColor) {
+        userLabelColor = invertColor(userColor, true);
+    }
+
+    if (userColor) {
+        this.label_color = userLabelColor;
+        this.dice_color = userColor;
+        this.ambient_light_color = userColor;
+
+        coloru = userColor;
+        coloruLabel = userLabelColor;
+
+        document.getElementById('addressChrome').setAttribute('content', userColor);
+
+    } else {
+        this.label_color = labelColor;
+        this.dice_color = randColor;
+        this.ambient_light_color = randColor;
+
+        coloru = randColor;
+        coloruLabel = labelColor;
+
+        document.getElementById('addressChrome').setAttribute('content', randColor);
+    }
+
+    this.spot_light_color = 0xefdfd5;
+    this.selector_back_colors = { color: 0x404040, shininess: 0, emissive: 0x858787 };
+    this.desk_color = 0x3e2a28;
+
+    this.known_types = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100'];
+    this.dice_face_range = {
+        'd4': [1, 4],
+        'd6': [1, 6],
+        'd8': [1, 8],
+        'd10': [0, 9],
+        'd12': [1, 12],
+        'd20': [1, 20],
+        'd100': [0, 9]
+    };
+    this.dice_mass = { 'd4': 220, 'd6': 300, 'd8': 340, 'd10': 350, 'd12': 360, 'd20': 400, 'd100': 350 };
+    this.dice_inertia = { 'd4': 12, 'd6': 13, 'd8': 10, 'd10': 9, 'd12': 8, 'd20': 6, 'd100': 9 };
+
+    this.scale = 50;
+
+    this.create_d4 = function() {
+        if (!this.d4_geometry) this.d4_geometry = this.create_d4_geometry(this.scale * 1.1);
+        if (!this.d4_material) this.d4_material = new THREE.MeshFaceMaterial(
+            this.create_d4_materials(this.scale / 2, this.scale * 2));
+        return new THREE.Mesh(this.d4_geometry, this.d4_material);
+    }
+
+    this.create_d6 = function() {
+        if (!this.d6_geometry) this.d6_geometry = this.create_d6_geometry(this.scale * 0.9);
+        if (!this.dice_material) this.dice_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d20_dice_face_labels, this.scale / 2, 1.0));
+        return new THREE.Mesh(this.d6_geometry, this.dice_material);
+    }
+
+    this.create_d8 = function() {
+        if (!this.d8_geometry) this.d8_geometry = this.create_d8_geometry(this.scale);
+        if (!this.dice_material) this.dice_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d20_dice_face_labels, this.scale / 2, 1.2));
+        return new THREE.Mesh(this.d8_geometry, this.dice_material);
+    }
+
+    this.create_d10 = function() {
+        if (!this.d10_geometry) this.d10_geometry = this.create_d10_geometry(this.scale * 0.9);
+        if (!this.dice_material) this.dice_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d20_dice_face_labels, this.scale / 2, 1.0));
+        return new THREE.Mesh(this.d10_geometry, this.dice_material);
+    }
+
+    this.create_d12 = function() {
+        if (!this.d12_geometry) this.d12_geometry = this.create_d12_geometry(this.scale * 0.9);
+        if (!this.dice_material) this.dice_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d20_dice_face_labels, this.scale / 2, 1.0));
+        return new THREE.Mesh(this.d12_geometry, this.dice_material);
+    }
+
+    this.create_d20 = function() {
+        if (!this.d20_geometry) this.d20_geometry = this.create_d20_geometry(this.scale);
+        if (!this.dice_material) this.dice_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d20_dice_face_labels, this.scale / 2, 1.0));
+        return new THREE.Mesh(this.d20_geometry, this.dice_material);
+    }
+
+    this.create_d100 = function() {
+        if (!this.d10_geometry) this.d10_geometry = this.create_d10_geometry(this.scale * 0.9);
+        if (!this.d100_material) this.d100_material = new THREE.MeshFaceMaterial(
+            this.create_dice_materials(this.standart_d100_dice_face_labels, this.scale / 2, 1.5));
+        return new THREE.Mesh(this.d10_geometry, this.d100_material);
+    }
+
+    this.parse_notation = function(notation) {
+        var droplowest = notation.includes("!");
+        if (droplowest) {
+            notation = notation.replace('!', '');
+        }
+        var no = notation.split('@');
+        var dr0 = /\s*(\d*)([a-z]+)(\d+)(\s*\+\s*(\d+)){0,1}\s*(\+|$)/gi;
+        var dr1 = /(\b)*(\d+)(\b)*/gi;
+        var ret = { set: [], constant: 0, result: [], error: false, dl: droplowest },
+            res;
+
+        while (res = dr0.exec(no[0])) {
+            var command = res[2];
+            if (command != 'd') { ret.error = true; continue; }
+            var count = parseInt(res[1]);
+            if (res[1] == '') count = 1;
+            var type = 'd' + res[3];
+            if (this.known_types.indexOf(type) == -1) { ret.error = true; continue; }
+            while (count--) ret.set.push(type);
+            if (res[5]) ret.constant += parseInt(res[5]);
+        }
+        while (res = dr1.exec(no[1])) {
+            ret.result.push(parseInt(res[2]));
+        }
+        return ret;
+    }
+
+    this.stringify_notation = function(nn) {
+        var dict = {},
+            notation = '';
+        for (var i in nn.set)
+            if (!dict[nn.set[i]]) dict[nn.set[i]] = 1;
+            else ++dict[nn.set[i]];
+        for (var i in dict) {
+            if (notation.length) notation += ' + ';
+            notation += (dict[i] > 1 ? dict[i] : '') + i;
+        }
+        if (nn.constant) notation += ' + ' + nn.constant;
+        return notation;
+    }
+
+    var that = this;
+
+    this.dice_box = function(container, dimentions) {
+        this.use_adapvite_timestep = true;
+        this.animate_selector = true;
+
+        this.dices = [];
+        this.scene = new THREE.Scene();
+        this.world = new CANNON.World();
+
+        this.renderer = window.WebGLRenderingContext ?
+            new THREE.WebGLRenderer({ antialias: true }) :
+            new THREE.CanvasRenderer({ antialias: true });
+        container.appendChild(this.renderer.domElement);
+        this.renderer.shadowMap.enabled = true;
+        this.renderer.shadowMap.type = THREE.PCFShadowMap;
+        this.renderer.setClearColor(that.desk_color, 1);
+
+        this.reinit(container, dimentions);
+
+        this.world.gravity.set(0, 0, -9.8 * 800);
+        this.world.broadphase = new CANNON.NaiveBroadphase();
+        this.world.solver.iterations = 16;
+
+        var ambientLight = new THREE.AmbientLight(that.ambient_light_color);
+        this.scene.add(ambientLight);
+
+        this.dice_body_material = new CANNON.Material();
+        var desk_body_material = new CANNON.Material();
+        var barrier_body_material = new CANNON.Material();
+
+        this.world.addContactMaterial(new CANNON.ContactMaterial(
+            desk_body_material, this.dice_body_material, 0.01, 0.5));
+
+        this.world.addContactMaterial(new CANNON.ContactMaterial(
+            barrier_body_material, this.dice_body_material, 0, 1.0));
+
+        this.world.addContactMaterial(new CANNON.ContactMaterial(
+            this.dice_body_material, this.dice_body_material, 0, 0.5));
+
+        this.world.add(new CANNON.RigidBody(0, new CANNON.Plane(), desk_body_material));
+        var barrier;
+        barrier = new CANNON.RigidBody(0, new CANNON.Plane(), barrier_body_material);
+        barrier.quaternion.setFromAxisAngle(new CANNON.Vec3(1, 0, 0), Math.PI / 2);
+        barrier.position.set(0, this.h * 0.93, 0);
+        this.world.add(barrier);
+
+        barrier = new CANNON.RigidBody(0, new CANNON.Plane(), barrier_body_material);
+        barrier.quaternion.setFromAxisAngle(new CANNON.Vec3(1, 0, 0), -Math.PI / 2);
+        barrier.position.set(0, -this.h * 0.93, 0);
+        this.world.add(barrier);
+
+        barrier = new CANNON.RigidBody(0, new CANNON.Plane(), barrier_body_material);
+        barrier.quaternion.setFromAxisAngle(new CANNON.Vec3(0, 1, 0), -Math.PI / 2);
+        barrier.position.set(this.w * 0.93, 0, 0);
+        this.world.add(barrier);
+
+        barrier = new CANNON.RigidBody(0, new CANNON.Plane(), barrier_body_material);
+        barrier.quaternion.setFromAxisAngle(new CANNON.Vec3(0, 1, 0), Math.PI / 2);
+        barrier.position.set(-this.w * 0.93, 0, 0);
+        this.world.add(barrier);
+
+        this.last_time = 0;
+        this.running = false;
+
+        this.renderer.render(this.scene, this.camera);
+    }
+
+    this.dice_box.prototype.reinit = function(container, dimentions) {
+        this.cw = container.clientWidth / 2;
+        this.ch = container.clientHeight / 2;
+
+        if (dimentions) {
+            this.w = dimentions.w;
+            this.h = dimentions.h;
+        } else {
+            this.w = this.cw;
+            this.h = this.ch;
+        }
+
+        if (this.cw < this.ch && dimentions) {
+            this.w = dimentions.h;
+            this.h = dimentions.w;
+        }
+
+        this.aspect = Math.min(this.cw / this.w, this.ch / this.h);
+        that.scale = Math.sqrt(this.w * this.w + this.h * this.h) / 13;
+
+        this.renderer.setSize(this.cw * 2.001, this.ch * 2.001);
+
+        this.wh = this.ch / this.aspect / Math.tan(10 * Math.PI / 180);
+        if (this.camera) this.scene.remove(this.camera);
+        this.camera = new THREE.PerspectiveCamera(20, this.cw / this.ch, 1, this.wh * 1.3);
+        this.camera.position.z = this.wh;
+
+        var mw = Math.max(this.w, this.h);
+        if (this.light) this.scene.remove(this.light);
+        this.light = new THREE.SpotLight(that.spot_light_color, 1.0);
+        this.light.position.set(-mw / 2, mw / 2, mw * 2);
+        this.light.target.position.set(0, 0, 0);
+        this.light.distance = mw * 5;
+        this.light.castShadow = true;
+        this.light.shadowCameraNear = mw / 10;
+        this.light.shadowCameraFar = mw * 5;
+        this.light.shadowCameraFov = 50;
+        this.light.shadowBias = 0.001;
+        this.light.shadowDarkness = 1.1;
+        this.light.shadowMapWidth = 4096;
+        this.light.shadowMapHeight = 4096;
+        this.scene.add(this.light);
+
+        if (this.desk) this.scene.remove(this.desk);
+        this.desk = new THREE.Mesh(new THREE.PlaneGeometry(this.w * 3, this.h * 3, 1, 1),
+            new THREE.MeshPhongMaterial({ color: shadeColor(coloru, -80) }));
+        this.desk.receiveShadow = true;
+        this.scene.add(this.desk);
+
+        this.renderer.render(this.scene, this.camera);
+    }
+
+    function make_random_vector(vector) {
+        var random_angle = rnd() * Math.PI / 5 - Math.PI / 5 / 2;
+        var vec = {
+            x: vector.x * Math.cos(random_angle) - vector.y * Math.sin(random_angle),
+            y: vector.x * Math.sin(random_angle) + vector.y * Math.cos(random_angle)
+        };
+        if (vec.x == 0) vec.x = 0.01;
+        if (vec.y == 0) vec.y = 0.01;
+        return vec;
+    }
+
+    this.dice_box.prototype.generate_vectors = function(notation, vector, boost) {
+        var vectors = [];
+        for (var i in notation.set) {
+            var vec = make_random_vector(vector);
+            var pos = {
+                x: this.w * (vec.x > 0 ? -1 : 1) * 0.9,
+                y: this.h * (vec.y > 0 ? -1 : 1) * 0.9,
+                z: rnd() * 200 + 200
+            };
+            var projector = Math.abs(vec.x / vec.y);
+            if (projector > 1.0) pos.y /= projector;
+            else pos.x *= projector;
+            var velvec = make_random_vector(vector);
+            var velocity = { x: velvec.x * boost, y: velvec.y * boost, z: -10 };
+            var inertia = that.dice_inertia[notation.set[i]];
+            var angle = {
+                x: -(rnd() * vec.y * 5 + inertia * vec.y),
+                y: rnd() * vec.x * 5 + inertia * vec.x,
+                z: 0
+            };
+            var axis = { x: rnd(), y: rnd(), z: rnd(), a: rnd() };
+            vectors.push({ set: notation.set[i], pos: pos, velocity: velocity, angle: angle, axis: axis });
+        }
+        return vectors;
+    }
+
+    this.dice_box.prototype.create_dice = function(type, pos, velocity, angle, axis) {
+        var dice = that['create_' + type]();
+        dice.castShadow = true;
+        dice.dice_type = type;
+        dice.body = new CANNON.RigidBody(that.dice_mass[type],
+            dice.geometry.cannon_shape, this.dice_body_material);
+        dice.body.position.set(pos.x, pos.y, pos.z);
+        dice.body.quaternion.setFromAxisAngle(new CANNON.Vec3(axis.x, axis.y, axis.z), axis.a * Math.PI * 2);
+        dice.body.angularVelocity.set(angle.x, angle.y, angle.z);
+        dice.body.velocity.set(velocity.x, velocity.y, velocity.z);
+        dice.body.linearDamping = 0.1;
+        dice.body.angularDamping = 0.1;
+        this.scene.add(dice);
+        this.dices.push(dice);
+        this.world.add(dice.body);
+    }
+
+    this.dice_box.prototype.check_if_throw_finished = function() {
+        var res = true;
+        var e = 6;
+        if (this.iteration < 10000 / that.frame_rate) {
+            for (var i = 0; i < this.dices.length; ++i) {
+                var dice = this.dices[i];
+                if (dice.dice_stopped === true) continue;
+                var a = dice.body.angularVelocity,
+                    v = dice.body.velocity;
+                if (Math.abs(a.x) < e && Math.abs(a.y) < e && Math.abs(a.z) < e &&
+                    Math.abs(v.x) < e && Math.abs(v.y) < e && Math.abs(v.z) < e) {
+                    if (dice.dice_stopped) {
+                        if (this.iteration - dice.dice_stopped > 3) {
+                            dice.dice_stopped = true;
+                            continue;
+                        }
+                    } else dice.dice_stopped = this.iteration;
+                    res = false;
+                } else {
+                    dice.dice_stopped = undefined;
+                    res = false;
+                }
+            }
+        }
+        return res;
+    }
+
+    function get_dice_value(dice) {
+        var vector = new THREE.Vector3(0, 0, dice.dice_type == 'd4' ? -1 : 1);
+        var closest_face, closest_angle = Math.PI * 2;
+        for (var i = 0, l = dice.geometry.faces.length; i < l; ++i) {
+            var face = dice.geometry.faces[i];
+            if (face.materialIndex == 0) continue;
+            var angle = face.normal.clone().applyQuaternion(dice.body.quaternion).angleTo(vector);
+            if (angle < closest_angle) {
+                closest_angle = angle;
+                closest_face = face;
+            }
+        }
+        var matindex = closest_face.materialIndex - 1;
+        if (dice.dice_type == 'd100') matindex *= 10;
+        return matindex;
+    }
+
+    function get_dice_values(dices) {
+        var values = [];
+        for (var i = 0, l = dices.length; i < l; ++i) {
+            values.push(get_dice_value(dices[i]));
+        }
+        return values;
+    }
+
+    this.dice_box.prototype.emulate_throw = function() {
+        while (!this.check_if_throw_finished()) {
+            ++this.iteration;
+            this.world.step(that.frame_rate);
+        }
+        return get_dice_values(this.dices);
+    }
+
+    this.dice_box.prototype.__animate = function(threadid) {
+        var time = (new Date()).getTime();
+        var time_diff = (time - this.last_time) / 1000;
+        if (time_diff > 3) time_diff = that.frame_rate;
+        ++this.iteration;
+        if (this.use_adapvite_timestep) {
+            while (time_diff > that.frame_rate * 1.1) {
+                this.world.step(that.frame_rate);
+                time_diff -= that.frame_rate;
+            }
+            this.world.step(time_diff);
+        } else {
+            this.world.step(that.frame_rate);
+        }
+        for (var i in this.scene.children) {
+            var interact = this.scene.children[i];
+            if (interact.body != undefined) {
+                interact.position.copy(interact.body.position);
+                interact.quaternion.copy(interact.body.quaternion);
+            }
+        }
+        this.renderer.render(this.scene, this.camera);
+        this.last_time = this.last_time ? time : (new Date()).getTime();
+        if (this.running == threadid && this.check_if_throw_finished()) {
+            this.running = false;
+            if (this.callback) this.callback.call(this, get_dice_values(this.dices));
+        }
+        if (this.running == threadid) {
+            (function(t, tid, uat) {
+                if (!uat && time_diff < that.frame_rate) {
+                    setTimeout(function() { requestAnimationFrame(function() { t.__animate(tid); }); },
+                        (that.frame_rate - time_diff) * 1000);
+                } else requestAnimationFrame(function() { t.__animate(tid); });
+            })(this, threadid, this.use_adapvite_timestep);
+        }
+    }
+
+    this.dice_box.prototype.clear = function() {
+        this.running = false;
+        var dice;
+        while (dice = this.dices.pop()) {
+            this.scene.remove(dice);
+            if (dice.body) this.world.remove(dice.body);
+        }
+        if (this.pane) this.scene.remove(this.pane);
+        this.renderer.render(this.scene, this.camera);
+        var box = this;
+        setTimeout(function() { box.renderer.render(box.scene, box.camera); }, 100);
+    }
+
+    this.dice_box.prototype.prepare_dices_for_roll = function(vectors) {
+        this.clear();
+        this.iteration = 0;
+        for (var i in vectors) {
+            this.create_dice(vectors[i].set, vectors[i].pos, vectors[i].velocity,
+                vectors[i].angle, vectors[i].axis);
+        }
+    }
+
+    function shift_dice_faces(dice, value, res) {
+        var r = that.dice_face_range[dice.dice_type];
+        if (!(value >= r[0] && value <= r[1])) return;
+        var num = value - res;
+        var geom = dice.geometry.clone();
+        for (var i = 0, l = geom.faces.length; i < l; ++i) {
+            var matindex = geom.faces[i].materialIndex;
+            if (matindex == 0) continue;
+            matindex += num - 1;
+            while (matindex > r[1]) matindex -= r[1];
+            while (matindex < r[0]) matindex += r[1];
+            geom.faces[i].materialIndex = matindex + 1;
+        }
+        dice.geometry = geom;
+    }
+
+    this.dice_box.prototype.roll = function(vectors, values, callback) {
+        this.prepare_dices_for_roll(vectors);
+        if (values != undefined && values.length) {
+            this.use_adapvite_timestep = false;
+            var res = this.emulate_throw();
+            this.prepare_dices_for_roll(vectors);
+            for (var i in res)
+                shift_dice_faces(this.dices[i], values[i], res[i]);
+        }
+        this.callback = callback;
+        this.running = (new Date()).getTime();
+        this.last_time = 0;
+        this.__animate(this.running);
+    }
+
+    this.dice_box.prototype.__selector_animate = function(threadid) {
+        var time = (new Date()).getTime();
+        var time_diff = (time - this.last_time) / 1000;
+        if (time_diff > 3) time_diff = that.frame_rate;
+        var angle_change = 0.3 * time_diff * Math.PI * Math.min(24000 + threadid - time, 6000) / 6000;
+        if (angle_change < 0) this.running = false;
+        for (var i in this.dices) {
+            this.dices[i].rotation.y += angle_change;
+            this.dices[i].rotation.x += angle_change / 4;
+            this.dices[i].rotation.z += angle_change / 10;
+        }
+        this.last_time = time;
+        this.renderer.render(this.scene, this.camera);
+        if (this.running == threadid) {
+            (function(t, tid) {
+                requestAnimationFrame(function() { t.__selector_animate(tid); });
+            })(this, threadid);
+        }
+    }
+
+    this.dice_box.prototype.search_dice_by_mouse = function(ev) {
+        var m = $t.get_mouse_coords(ev);
+        var intersects = (new THREE.Raycaster(this.camera.position,
+            (new THREE.Vector3((m.x - this.cw) / this.aspect,
+                (m.y - this.ch) / this.aspect, this.w / 9))
+            .sub(this.camera.position).normalize())).intersectObjects(this.dices);
+        if (intersects.length) return intersects[0].object.userData;
+    }
+
+    this.dice_box.prototype.draw_selector = function() {
+        this.clear();
+        var step = this.w / 4.5;
+        this.pane = new THREE.Mesh(new THREE.PlaneGeometry(this.w * 6, this.h * 6, 1, 1),
+            new THREE.MeshPhongMaterial(that.selector_back_colors));
+        this.pane.receiveShadow = true;
+        this.pane.position.set(0, 0, 1);
+        this.scene.add(this.pane);
+
+        var mouse_captured = false;
+
+        for (var i = 0, pos = -3; i < that.known_types.length; ++i, ++pos) {
+            var dice = $t.dice['create_' + that.known_types[i]]();
+            dice.position.set(pos * step, 0, step * 0.5);
+            dice.castShadow = true;
+            dice.userData = that.known_types[i];
+            this.dices.push(dice);
+            this.scene.add(dice);
+        }
+
+        this.running = (new Date()).getTime();
+        this.last_time = 0;
+        if (this.animate_selector) this.__selector_animate(this.running);
+        else this.renderer.render(this.scene, this.camera);
+    }
+
+    function throw_dices(box, vector, boost, dist, notation_getter, before_roll, after_roll) {
+        var uat = $t.dice.use_adapvite_timestep;
+
+        function roll(request_results) {
+            if (after_roll) {
+                box.clear();
+                box.roll(vectors, request_results || notation.result, function(result) {
+                    if (after_roll) after_roll.call(box, notation, result);
+                    box.rolling = false;
+                    $t.dice.use_adapvite_timestep = uat;
+                });
+            }
+        }
+        vector.x /= dist;
+        vector.y /= dist;
+        var notation = notation_getter.call(box);
+        if (notation.set.length == 0) return;
+        var vectors = box.generate_vectors(notation, vector, boost);
+        box.rolling = true;
+        if (before_roll) before_roll.call(box, vectors, notation, roll);
+        else roll();
+    }
+
+    this.dice_box.prototype.bind_mouse = function(container, notation_getter, before_roll, after_roll) {
+        var box = this;
+        $t.bind(container, ['mousedown', 'touchstart'], function(ev) {
+            box.mouse_time = (new Date()).getTime();
+            box.mouse_start = $t.get_mouse_coords(ev);
+        });
+        $t.bind(container, ['mouseup', 'touchend'], function(ev) {
+            if (box.rolling) return;
+            if (box.mouse_start == undefined) return;
+            ev.stopPropagation();
+            var m = $t.get_mouse_coords(ev);
+            var vector = { x: m.x - box.mouse_start.x, y: -(m.y - box.mouse_start.y) };
+            box.mouse_start = undefined;
+            var dist = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
+            if (dist < Math.sqrt(box.w * box.h * 0.01)) return;
+            var time_int = (new Date()).getTime() - box.mouse_time;
+            if (time_int > 2000) time_int = 2000;
+            var boost = Math.sqrt((2500 - time_int) / 2500) * dist * 4;
+            prepare_rnd(function() {
+                throw_dices(box, vector, boost, dist, notation_getter, before_roll, after_roll);
+            });
+        });
+    }
+
+    this.dice_box.prototype.bind_throw = function(button, notation_getter, before_roll, after_roll) {
+        var box = this;
+        $t.bind(button, ['mouseup', 'touchend'], function(ev) {
+            ev.stopPropagation();
+            box.start_throw(notation_getter, before_roll, after_roll);
+        });
+    }
+
+    this.dice_box.prototype.start_throw = function(notation_getter, before_roll, after_roll) {
+        var box = this;
+        if (box.rolling) return;
+        prepare_rnd(function() {
+            var vector = { x: (rnd() * 2 - 1) * box.w, y: -(rnd() * 2 - 1) * box.h };
+            var dist = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
+            var boost = (rnd() + 3) * dist;
+            throw_dices(box, vector, boost, dist, notation_getter, before_roll, after_roll);
+        });
+    }
+
+    function shadeColor(color, percent) {
+
+        var R = parseInt(color.substring(1, 3), 16);
+        var G = parseInt(color.substring(3, 5), 16);
+        var B = parseInt(color.substring(5, 7), 16);
+
+        R = parseInt(R * (100 + percent) / 100);
+        G = parseInt(G * (100 + percent) / 100);
+        B = parseInt(B * (100 + percent) / 100);
+
+        R = (R < 255) ? R : 255;
+        G = (G < 255) ? G : 255;
+        B = (B < 255) ? B : 255;
+
+        var RR = ((R.toString(16).length == 1) ? "0" + R.toString(16) : R.toString(16));
+        var GG = ((G.toString(16).length == 1) ? "0" + G.toString(16) : G.toString(16));
+        var BB = ((B.toString(16).length == 1) ? "0" + B.toString(16) : B.toString(16));
+
+        return "#" + RR + GG + BB;
+    }
+
+}).apply(teal.dice = teal.dice || {});
